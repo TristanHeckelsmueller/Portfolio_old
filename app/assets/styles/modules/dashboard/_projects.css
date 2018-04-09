@@ -1,0 +1,57 @@
+.dashboard{
+  &__projects{
+    cursor: pointer;
+    float: left;
+    height: 49%;
+    width: 11%;
+    z-index: 2;
+    transition: all ease 1s;
+
+    &--col{
+      transition: all ease 1s;
+      overflow: visible;
+      width: 300vw;
+    }
+    &--background{
+      /* overflow: hidden; */
+      position: absolute;
+      width: 33%;
+      height: 45vh;
+      z-index: -1;
+      background-size: cover;
+      filter: grayscale(100%);
+    }
+    &--title{
+      padding: 1em 2em;
+      text-align: center;
+    }
+    & ul{
+      padding: 0em 2em;
+      margin-top: 2em;
+      & li{
+        margin-bottom: 5em;
+
+      }
+    }
+  }
+}
+
+#col-1{
+  background: url('/assets/images/City.jpg');
+  background-size: cover;
+  filter: grayscale(100%);
+  &:hover{
+  filter: grayscale(0%);
+  }
+}
+#col-2{
+  background: url('/assets/images/City1.jpg');
+  background-size: cover;
+  filter: grayscale(100%);
+  &:hover{
+  filter: grayscale(0%);
+  }
+}
+#col-3{
+  background: #434343;
+}

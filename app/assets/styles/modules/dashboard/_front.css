@@ -1,0 +1,49 @@
+.dashboard{
+  &__front{
+    display: block;
+    /* align-items: baseline; */
+    width: 66%;
+    height: 95vh;
+    background: url('/assets/images/Sunset-Mountains.jpg');
+    background-size: cover;
+    color: #fff;
+    padding: 4em;
+    float: left;
+    &__title{
+      height: 50%;
+      bottom: 0;
+      width: 100%;
+      display: flex;
+      align-items: flex-end;
+      color: #c26341;
+      & h2{
+        font-weight: 100;
+        font-size: 1.5em;
+        margin-bottom: 0;
+      }
+      & h3{
+        margin: .2em;
+        font-size: 1em;
+        font-weight: 100;
+      }
+    }
+    &__space{
+      height: 50%;
+
+    }
+    &__about-me{
+      line-height: 1.8em;
+      letter-spacing: .05em;
+      opacity: 0;
+      width: 100%;
+      transition: .5s all ease;
+      cursor: default;
+      & h3{
+        font-weight: 900;
+      }
+      & p{
+        font-weight: 100;
+      }
+    }
+  }
+}

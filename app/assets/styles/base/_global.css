@@ -1,0 +1,33 @@
+body {
+  /*font-family: 'Montserrat', sans-serif;*/
+  font-family: 'Inika', serif;
+  color: #333;
+}
+*{
+  box-sizing: border-box;
+  overflow: hidden;
+  letter-spacing: .1em;
+}
+.clearfix{
+  & ::after{
+    content: ".";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0px;
+  }
+}
+
+a{
+  text-decoration: none;
+  transform-origin: left;
+  transition: .5s all ease;
+  color: #fff;
+  &:hover{
+    color: #c26341;
+  }
+}
+
+a{
+  text-decoration: none;
+}

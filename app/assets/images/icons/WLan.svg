@@ -1,0 +1,22 @@
+<svg width="170" height="223" viewBox="0 0 170 223" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Group 5.1</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(587 19)">
+<g id="Group 5.1">
+<g id="Vector 3">
+<use xlink:href="#path0_fill" transform="matrix(6.47018e-17 1 -1 6.47018e-17 -417.202 -19)" fill="#FFFFFF"/>
+<use xlink:href="#path1_fill" transform="matrix(6.47018e-17 1 -1 6.47018e-17 -417.202 -19)" fill="#FFFFFF"/>
+<use xlink:href="#path2_fill" transform="matrix(6.47018e-17 1 -1 6.47018e-17 -417.202 -19)" fill="#FFFFFF"/>
+</g>
+<g id="Ellipse">
+<use xlink:href="#path3_fill" transform="matrix(6.47018e-17 1 -1 6.47018e-17 -547 72)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 194 81.798L 179 96.798C 120.2 35.198 64.5 71.1313 44 96.798L 29.5 81.798C 98.7 9.79797 168 51.798 194 81.798Z"/>
+<path id="path1_fill" d="M 208 65.798C 127.6 -15.802 45.8333 31.798 15 65.798L 0 50.798C 92.8 -41.202 187.333 12.4646 223 50.798L 208 65.798Z"/>
+<path id="path2_fill" d="M 73.4999 128.298C 85.6666 110.965 117.9 86.698 149.5 128.298L 164.5 112.298C 147.959 90.9646 103.64 61.098 58.6887 112.298L 73.4999 128.298Z"/>
+<path id="path3_fill" d="M 40 20C 40 31.0457 31.0457 40 20 40C 8.95431 40 0 31.0457 0 20C 0 8.95431 8.95431 0 20 0C 31.0457 0 40 8.95431 40 20Z"/>
+</defs>
+</svg>

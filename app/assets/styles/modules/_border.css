@@ -1,0 +1,12 @@
+.border{
+  background: #fff;
+  float: left;
+  &-horizontal{
+    width: 100%;
+    height: 2%;
+  }
+  &-vertical{
+    width: 1%;
+    height: 95vh;
+  }
+}
