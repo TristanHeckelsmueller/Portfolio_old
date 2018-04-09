@@ -20,11 +20,13 @@
         font-weight: 100;
         font-size: 1.5em;
         margin-bottom: 0;
+        cursor: default;
       }
       & h3{
         margin: .2em;
         font-size: 1em;
         font-weight: 100;
+        cursor: default;
       }
     }
     &__space{

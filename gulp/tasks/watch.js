@@ -16,6 +16,10 @@ gulp.task('watch', function() {
     browserSync.reload();
   });
 
+  watch('./app/personal/blog.html', function() {
+    browserSync.reload();
+  });
+
   watch('./app/assets/styles/**/*.css', function() {
     gulp.start('cssInject');
     browserSync.reload();
