@@ -652,7 +652,7 @@ a{
       }
 
 #col-1{
-  background: url('/assets/images/blender/City.jpg');
+  background: url('assets/images/blender/City.jpg');
   background-size: cover;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
@@ -664,7 +664,7 @@ a{
   }
 
 #col-2{
-  background: url('/assets/images/blender/City1.jpg');
+  background: url('assets/images/blender/City1.jpg');
   background-size: cover;
   -webkit-filter: grayscale(100%);
           filter: grayscale(100%);
