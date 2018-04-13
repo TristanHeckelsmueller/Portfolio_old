@@ -551,7 +551,7 @@ a{
     /* align-items: baseline; */
     width: 66%;
     height: 95vh;
-    background: url('/assets/images/Sunset-Mountains.jpg');
+    background: url('assets/images/Sunset-Mountains.jpg');
     background-size: cover;
     color: #fff;
     padding: 4em;
