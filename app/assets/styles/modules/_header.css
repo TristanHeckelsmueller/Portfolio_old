@@ -16,6 +16,12 @@
     & img{
       width: 20px;
       margin-right: 1em;
+      transition: 1s all ease;
+      &:hover{
+          animation-name: wiggle;
+          animation-duration: 2s;
+          animation-iteration-count: infinite;
+       }
     }
     & h1{
       margin: 0;

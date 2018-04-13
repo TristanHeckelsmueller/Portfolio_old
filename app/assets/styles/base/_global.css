@@ -31,3 +31,10 @@ a{
 a{
   text-decoration: none;
 }
+
+.content-section::-webkit-scrollbar {
+    width: .5em;
+}
+.content-section::-webkit-scrollbar-thumb {
+  background: #fff;
+}

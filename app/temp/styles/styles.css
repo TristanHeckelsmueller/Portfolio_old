@@ -488,6 +488,14 @@ a{
   text-decoration: none;
 }
 
+.content-section::-webkit-scrollbar {
+    width: .5em;
+}
+
+.content-section::-webkit-scrollbar-thumb {
+  background: #fff;
+}
+
 .header{
     position: relative;
     color: #ffffff;
@@ -519,7 +527,18 @@ a{
 .nav__title img{
       width: 20px;
       margin-right: 1em;
+      -webkit-transition: 1s all ease;
+      transition: 1s all ease;
     }
+
+.nav__title img:hover{
+          -webkit-animation-name: wiggle;
+                  animation-name: wiggle;
+          -webkit-animation-duration: 2s;
+                  animation-duration: 2s;
+          -webkit-animation-iteration-count: infinite;
+                  animation-iteration-count: infinite;
+       }
 
 .nav__title h1{
       margin: 0;
@@ -568,7 +587,6 @@ a{
       -webkit-box-align: end;
           -ms-flex-align: end;
               align-items: flex-end;
-      color: #c26341;
     }
 
 .dashboard__front__title h2{
@@ -576,6 +594,7 @@ a{
         font-size: 1.5em;
         margin-bottom: 0;
         cursor: default;
+            color: #c26341;
       }
 
 .dashboard__front__title h3{
@@ -583,6 +602,7 @@ a{
         font-size: 1em;
         font-weight: 100;
         cursor: default;
+        color: #fff;
       }
 
 .dashboard__front__space{
@@ -881,15 +901,15 @@ a{
 
 @-webkit-keyframes wiggle {
   0%  {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
-  25% {-webkit-transform: rotate(3deg);transform: rotate(3deg);}
-  75% {-webkit-transform: rotate(-3deg);transform: rotate(-3deg);}
+  25% {-webkit-transform: rotate(6deg);transform: rotate(6deg);}
+  75% {-webkit-transform: rotate(-6deg);transform: rotate(-6deg);}
   100% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
 }
 
 @keyframes wiggle {
   0%  {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
-  25% {-webkit-transform: rotate(3deg);transform: rotate(3deg);}
-  75% {-webkit-transform: rotate(-3deg);transform: rotate(-3deg);}
+  25% {-webkit-transform: rotate(6deg);transform: rotate(6deg);}
+  75% {-webkit-transform: rotate(-6deg);transform: rotate(-6deg);}
   100% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
 }
 
@@ -907,7 +927,7 @@ a{
     margin: 0 auto;
     color: #fff;
     padding: 2em;
-    overflow: scroll;
+    overflow: auto;
   }
 
 .content-section h2{
@@ -925,3 +945,49 @@ a{
 .content-section__blog-post img{
         width: 100%;
       }
+
+.wp-content{
+  background-size: cover !important;
+  background-position: bottom !important;
+  width: 100%;
+  height: 95vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.wp-content__section{
+    -webkit-transform: translateY(200px);
+            transform: translateY(200px);
+    margin: 0 auto;
+    background: #fff;
+    padding: 1em;
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
+    max-width: fit-content;
+    border-radius: 1em;
+    font-weight: 900;
+  }
+
+.wp-content__section a{
+      color: #000;
+    }
+
+.wp-link{
+  color: #000;
+}
+
+.wp-link:hover{
+    color: #000;
+  }
+
+#cursade{
+  background: url('/assets/images/Cursade-Header.png');
+}
+
+#quiui{
+  background: url('/assets/images/Quiui-Header.png');
+}

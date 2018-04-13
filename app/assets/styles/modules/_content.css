@@ -10,7 +10,7 @@
     margin: 0 auto;
     color: #fff;
     padding: 2em;
-    overflow: scroll;
+    overflow: auto;
     & h2{
       font-weight: 100;
     }

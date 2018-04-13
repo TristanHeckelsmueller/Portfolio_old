@@ -12,14 +12,9 @@ gulp.task('watch', function() {
   });
 
 
-  watch('./app/index.html', function() {
+  watch('./app/*.html', function() {
     browserSync.reload();
   });
-
-  watch('./app/personal/blog.html', function() {
-    browserSync.reload();
-  });
-
   watch('./app/assets/styles/**/*.css', function() {
     gulp.start('cssInject');
     browserSync.reload();
