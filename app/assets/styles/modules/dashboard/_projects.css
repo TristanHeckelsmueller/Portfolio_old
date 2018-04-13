@@ -24,7 +24,7 @@
     &--title{
       padding: 1em 2em;
       text-align: center;
-    }
+     }
     & ul{
       padding: 0em 2em;
       margin-top: 2em;
@@ -37,7 +37,7 @@
 }
 
 #col-1{
-  background: url('././assets/images/blender/City.jpg');
+  background: url('./assets/images/blender/City.jpg');
   background-size: cover;
   filter: grayscale(100%);
   &:hover{
@@ -45,7 +45,7 @@
   }
 }
 #col-2{
-  background: url('../assets/images/blender/City1.jpg');
+  background: url('./assets/images/blender/City1.jpg');
   background-size: cover;
   filter: grayscale(100%);
   &:hover{
