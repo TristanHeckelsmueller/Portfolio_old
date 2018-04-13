@@ -2,15 +2,16 @@
   &__projects{
     cursor: pointer;
     float: left;
-    height: 49%;
-    width: 11%;
+    height: 47.5vh;
+    width: 33.5vw;
     z-index: 2;
     transition: all ease 1s;
-
+    border: 1px solid #000;
     &--col{
       transition: all ease 1s;
       overflow: visible;
       width: 300vw;
+      /* background: #000; */
     }
     &--background{
       /* overflow: hidden; */
@@ -40,6 +41,7 @@
   background: url('https://tristanheckelsmueller.github.io/Portfolio/assets/images/blender/City.jpg');
   background-size: cover;
   filter: grayscale(100%);
+  /* transform: translateX(2px); */
   &:hover{
   filter: grayscale(0%);
   }
@@ -48,6 +50,7 @@
   background: url('https://tristanheckelsmueller.github.io/Portfolio/assets/images/blender/City1.jpg');
   background-size: cover;
   filter: grayscale(100%);
+  transform: scaleX(1.005);
   &:hover{
   filter: grayscale(0%);
   }

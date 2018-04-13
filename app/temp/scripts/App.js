@@ -11285,6 +11285,11 @@ var Trigger = function Trigger() {
     (0, _jquery2.default)(".dashboard__cv").toggleClass("show-cv");
     (0, _jquery2.default)(".dashboard__cv--tribe").toggleClass("no-blur");
   });
+  (0, _jquery2.default)("#cv").click(function () {
+    console.log("Trigger");
+    (0, _jquery2.default)(".dashboard__cv").toggleClass("show-cv");
+    (0, _jquery2.default)(".dashboard__cv--tribe").toggleClass("no-blur");
+  });
   // Projects Full Size
   (0, _jquery2.default)(".dashboard__projects").click(function () {
     console.log("Trigger");

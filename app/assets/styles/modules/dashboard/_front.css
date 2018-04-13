@@ -2,7 +2,7 @@
   &__front{
     display: block;
     /* align-items: baseline; */
-    width: 66%;
+    width: 66vw;
     height: 95vh;
     background: url('https://tristanheckelsmueller.github.io/Portfolio/assets/images/Sunset-Mountains.jpg');
     background-size: cover;

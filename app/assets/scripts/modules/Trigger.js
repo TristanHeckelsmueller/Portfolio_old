@@ -23,6 +23,11 @@ class Trigger {
       $(".dashboard__cv").toggleClass("show-cv");
       $(".dashboard__cv--tribe").toggleClass("no-blur");
     });
+    $("#cv").click(function(){
+      console.log("Trigger")
+      $(".dashboard__cv").toggleClass("show-cv");
+      $(".dashboard__cv--tribe").toggleClass("no-blur");
+    });
     // Projects Full Size
     $(".dashboard__projects").click(function(){
       console.log("Trigger")

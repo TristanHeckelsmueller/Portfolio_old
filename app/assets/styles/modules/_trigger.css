@@ -14,7 +14,7 @@
 .show-cv{
   /* position: absolute; */
   transform: translateY(-47vh);
-  width: 100%;
+  width: 33.5vw;
   height: 95vh;
   opacity: 1 !important;
   z-index: 5 !important;
