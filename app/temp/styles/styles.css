@@ -502,6 +502,7 @@ a{
     background: #333333;
     padding: 0em 1.5em;
     height: 5vh;
+    z-index: 6;
 }
 
 .nav{
@@ -919,6 +920,29 @@ a{
   100% {-webkit-transform: rotate(0deg);transform: rotate(0deg);}
 }
 
+@-webkit-keyframes wiggle-2 {
+  0%  {-webkit-transform: translateX(67vw) translateY(38vh) scale(.5) rotate(0deg);transform: translateX(67vw) translateY(38vh) scale(.5) rotate(0deg);}
+  25%  {-webkit-transform: translateX(67vw) translateY(38vh) scale(.5) rotate(6deg);transform: translateX(67vw) translateY(38vh) scale(.5) rotate(6deg);}
+  75%  {-webkit-transform: translateX(67vw) translateY(38vh) scale(.5) rotate(-6deg);transform: translateX(67vw) translateY(38vh) scale(.5) rotate(-6deg);}
+  100%  {-webkit-transform: translateX(67vw) translateY(38vh) scale(.5) rotate(0deg);transform: translateX(67vw) translateY(38vh) scale(.5) rotate(0deg);}
+
+}
+
+@keyframes wiggle-2 {
+  0%  {-webkit-transform: translateX(67vw) translateY(38vh) scale(.5) rotate(0deg);transform: translateX(67vw) translateY(38vh) scale(.5) rotate(0deg);}
+  25%  {-webkit-transform: translateX(67vw) translateY(38vh) scale(.5) rotate(6deg);transform: translateX(67vw) translateY(38vh) scale(.5) rotate(6deg);}
+  75%  {-webkit-transform: translateX(67vw) translateY(38vh) scale(.5) rotate(-6deg);transform: translateX(67vw) translateY(38vh) scale(.5) rotate(-6deg);}
+  100%  {-webkit-transform: translateX(67vw) translateY(38vh) scale(.5) rotate(0deg);transform: translateX(67vw) translateY(38vh) scale(.5) rotate(0deg);}
+
+}
+
+/* @keyframes astronaut-fall {
+  0%  {transform: translateX(67vw) translateY(38vh) scale(.5) rotate(0deg)};
+  10%  {transform: translateX(67vw) translateY(38vh) scale(.5) rotate(6deg)};
+  40%  {transform: translateX(67vw) translateY(38vh) scale(.5) rotate(-6deg)};
+  100%  {transform: translateX(10vw) translateY(100vh) scale(.5) rotate(-240deg)};
+} */
+
 .content{
   background: #c26341;
   width: 100%;
@@ -996,4 +1020,38 @@ a{
 
 #quiui{
   background: url('https://tristanheckelsmueller.github.io/Portfolio/assets/images/Quiui-Header.png');
+}
+
+.astronaut{
+  position: absolute;
+  -webkit-transform: translateX(67vw) translateY(38vh) scale(.5) rotate(0deg);
+          transform: translateX(67vw) translateY(38vh) scale(.5) rotate(0deg);
+  z-index: 5;
+
+}
+
+.astronaut:hover{
+    -webkit-animation-name: wiggle-2;
+            animation-name: wiggle-2;
+    -webkit-animation-duration: 2s;
+            animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+  }
+
+.astronaut-fall{
+  -webkit-transition: 2s all ease;
+  transition: 2s all ease;
+  -webkit-transform: translateX(20vw) translateY(110vh) scale(.5) rotate(-240deg);
+          transform: translateX(20vw) translateY(110vh) scale(.5) rotate(-240deg);
+  z-index: -1;
+}
+
+.astronaut-fly{
+  -webkit-transition: 1.05s all ease;
+  transition: 1.05s all ease;
+  -webkit-transform: translateX(67vw) translateY(-10vh) scale(.5) rotate(0deg);
+          transform: translateX(67vw) translateY(-10vh) scale(.5) rotate(0deg);
+  /* z-index: -1; */
+  opacity: 0;
 }

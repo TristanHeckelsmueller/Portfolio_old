@@ -11282,6 +11282,7 @@ var Trigger = function Trigger() {
   // Curriculum Vitae Full Size
   (0, _jquery2.default)(".dashboard__cv").click(function () {
     console.log("Trigger");
+    (0, _jquery2.default)(".astronaut").addClass("astronaut-fly");
     (0, _jquery2.default)(".dashboard__cv").toggleClass("show-cv");
     (0, _jquery2.default)(".dashboard__cv--tribe").toggleClass("no-blur");
   });
@@ -11293,6 +11294,7 @@ var Trigger = function Trigger() {
   // Projects Full Size
   (0, _jquery2.default)(".dashboard__projects").click(function () {
     console.log("Trigger");
+    (0, _jquery2.default)(".astronaut").addClass("astronaut-fall");
     (0, _jquery2.default)(".dashboard__projects").toggleClass("show-projects");
     (0, _jquery2.default)(".dashboard__projects--col").toggleClass("slide");
     (0, _jquery2.default)(".border-horizontal").toggleClass("show-projects");

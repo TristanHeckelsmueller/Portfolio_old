@@ -20,6 +20,7 @@ class Trigger {
     // Curriculum Vitae Full Size
     $(".dashboard__cv").click(function(){
       console.log("Trigger")
+      $(".astronaut").addClass("astronaut-fly");
       $(".dashboard__cv").toggleClass("show-cv");
       $(".dashboard__cv--tribe").toggleClass("no-blur");
     });
@@ -31,6 +32,7 @@ class Trigger {
     // Projects Full Size
     $(".dashboard__projects").click(function(){
       console.log("Trigger")
+      $(".astronaut").addClass("astronaut-fall");
       $(".dashboard__projects").toggleClass("show-projects");
       $(".dashboard__projects--col").toggleClass("slide");
       $(".border-horizontal").toggleClass("show-projects");

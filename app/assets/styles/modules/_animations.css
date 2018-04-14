@@ -4,3 +4,16 @@
   75% {transform: rotate(-6deg);}
   100% {transform: rotate(0deg);}
 }
+@keyframes wiggle-2 {
+  0%  {transform: translateX(67vw) translateY(38vh) scale(.5) rotate(0deg);}
+  25%  {transform: translateX(67vw) translateY(38vh) scale(.5) rotate(6deg);}
+  75%  {transform: translateX(67vw) translateY(38vh) scale(.5) rotate(-6deg);}
+  100%  {transform: translateX(67vw) translateY(38vh) scale(.5) rotate(0deg);}
+
+}
+/* @keyframes astronaut-fall {
+  0%  {transform: translateX(67vw) translateY(38vh) scale(.5) rotate(0deg)};
+  10%  {transform: translateX(67vw) translateY(38vh) scale(.5) rotate(6deg)};
+  40%  {transform: translateX(67vw) translateY(38vh) scale(.5) rotate(-6deg)};
+  100%  {transform: translateX(10vw) translateY(100vh) scale(.5) rotate(-240deg)};
+} */
