@@ -976,6 +976,15 @@ a{
         width: 100%;
       }
 
+.content-section__blog-post-svg{
+  background: #333;
+}
+
+.content-section__svg{
+  width: 10% !important;
+  padding: 1em;
+}
+
 .wp-content{
   background-size: cover !important;
   background-position: bottom !important;
