@@ -13,31 +13,30 @@
 
 .show-cv{
   /* position: absolute; */
-  transform: translateY(-47vh);
-  width: 33.5vw;
-  height: 95vh;
   opacity: 1 !important;
   z-index: 5 !important;
   transition: 1s all ease;
+  @mixin atMedium{
+    transform: translateY(-47vh);
+    width: 33.5vw;
+    height: 95vh;
+  }
 }
 .show-projects{
-  width: 11%;
-  transform-origin: right;
-  /* transition: width 1s ease; */
-  z-index: 2;
-  &--background{
-    /* width: 11%; */
-    /* background-size: cover;  */
+  @mixin atMedium{
+    width: 11%;
+    transform-origin: right;
+    z-index: 2;
+
   }
 }
 
 .slide{
-  /* transition: transform 1s ease; */
-  transform: translateX(-66vw);
+  @mixin atMedium{
+    transform: translateX(-66vw);
+
+  }
 }
-/* .no-overflow{
-  overflow: visible !important;
-} */
 .no-blur{
   filter: blur(0px);
 }

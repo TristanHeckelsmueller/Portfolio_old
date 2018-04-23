@@ -5,11 +5,16 @@ body {
 }
 *{
   box-sizing: border-box;
-  overflow: hidden;
+  overflow-y: visible;
+  overflow-x: hidden;
   letter-spacing: .1em;
+  @mixin atMedium{
+    overflow-y: hidden;
+
+  }
 }
 .clearfix{
-  & ::after{
+  &::after{
     content: ".";
     clear: both;
     display: block;

@@ -1,21 +1,30 @@
 .dashboard{
   &__front{
+    height: 91vh;
+    /* width: 100vw; */
     display: block;
+    padding: 1em;
     /* align-items: baseline; */
-    width: 66vw;
-    height: 95vh;
     background: url('https://tristanheckelsmueller.github.io/Portfolio/assets/images/Sunset-Mountains.jpg');
     background-size: cover;
     color: #fff;
-    padding: 4em;
-    float: left;
+    @mixin atMedium{
+
+      width: 66vw;
+      height: 95vh;
+      padding: 4em;
+      float: left;
+    }
     &__title{
-      height: 50%;
+      height: 30%;
       bottom: 0;
       width: 100%;
       display: flex;
       align-items: flex-end;
+      @mixin atMedium{
+        height: 50%;
 
+      }
       & h2{
         font-weight: 100;
         font-size: 1.5em;
@@ -32,21 +41,29 @@
       }
     }
     &__space{
-      height: 50%;
-
+      @mixin atMedium{
+        height: 50%;
+      }
     }
     &__about-me{
-      line-height: 1.8em;
-      letter-spacing: .05em;
-      opacity: 0;
       width: 100%;
       transition: .5s all ease;
       cursor: default;
+      @mixin atMedium{
+        line-height: 1.8em;
+        opacity: 0;
+        letter-spacing: .05em;
+      }
       & h3{
         font-weight: 900;
       }
       & p{
         font-weight: 100;
+        overflow: visible !important;
+        @mixin atMedium{
+          display: none;
+          display: block;
+        }
       }
     }
   }

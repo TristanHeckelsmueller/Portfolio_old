@@ -1,6 +1,10 @@
 .border{
   background: #fff;
-  float: left;
+  display: none;
+  @mixin atMedium{
+    float: left;
+    display: block;
+  }
   &-horizontal{
     width: 100%;
     height: 1vh;

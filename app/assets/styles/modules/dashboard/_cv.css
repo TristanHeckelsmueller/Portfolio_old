@@ -1,16 +1,23 @@
 .dashboard{
   &__cv{
+    height: 100vh;
+    /* width: 100vw; */
     cursor: pointer;
     padding: 1em 2em;
     background: #1a1a1a;
-    width: 33.5vw;
-    height: 47.5vh;
-    float: left;
-    text-align: center;
+    /* text-align: center; */
     transition: all ease 1s;
-
+    /* width: 100%;
+    height: 100%; */
+    @mixin atMedium{
+      width: 33.5vw;
+      height: 47.5vh;
+      float: left;
+      transform: translateY(0vh);
+    }
     & h3{
       margin-bottom: 1em;
+      color: #fff;
     }
     &--tribe{
       width: 100%;

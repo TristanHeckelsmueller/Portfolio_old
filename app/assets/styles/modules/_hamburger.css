@@ -1,0 +1,45 @@
+.hamburger{
+  @mixin atMedium{
+    display: none;
+  }
+  transition: 1s all ease;
+  padding: 1em;
+  overflow: visible;
+  &::before{
+    content: '';
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    transform: translateY(-8px) rotate(0deg);
+    z-index: 7;
+  }
+
+  &__center{
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    transition: 1s all ease;
+  }
+  &::after{
+    content: '';
+    display: block;
+    width: 30px;
+    height: 3px;
+    background: #fff;
+    transform: translateY(8px) rotate(0deg);
+    z-index: 7;
+
+  }
+}
+
+
+.ham-top {
+  /* transform: rotate(90deg); */
+}
+.ham-bottom {
+  transform: rotate(-90deg) rotateX(45deg) scale(.9);
+}
+.ham-center{
+  transform: rotate(90deg) scale(.8);
+}

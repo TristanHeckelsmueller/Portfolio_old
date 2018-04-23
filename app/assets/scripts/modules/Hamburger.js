@@ -6,7 +6,7 @@ class Hamburger {
       $(".mobile-menu").toggleClass("show");
       $(".hamburger").toggleClass("ham-top");
       $(".hamburger").toggleClass("ham-bottom");
-      $(".hamburger-center").toggleClass("ham-center");
+      $(".hamburger__center").toggleClass("ham-center");
     });
   }
 }

@@ -10385,7 +10385,7 @@ var Hamburger = function Hamburger() {
     (0, _jquery2.default)(".mobile-menu").toggleClass("show");
     (0, _jquery2.default)(".hamburger").toggleClass("ham-top");
     (0, _jquery2.default)(".hamburger").toggleClass("ham-bottom");
-    (0, _jquery2.default)(".hamburger-center").toggleClass("ham-center");
+    (0, _jquery2.default)(".hamburger__center").toggleClass("ham-center");
   });
 };
 

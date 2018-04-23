@@ -1,13 +1,16 @@
 .astronaut{
+  display: none;
   position: absolute;
-  transform: translateX(67vw) translateY(38vh) scale(.5) rotate(0deg);
+  transform: translateX(67vw) translateY(33vh) scale(.5) rotate(0deg);
   z-index: 5;
+  @mixin atMedium{
+    display: block;
+  }
   &:hover{
     animation-name: wiggle-2;
     animation-duration: 2s;
     animation-iteration-count: infinite;
   }
-
 }
 .astronaut-fall{
   transition: 2s all ease;

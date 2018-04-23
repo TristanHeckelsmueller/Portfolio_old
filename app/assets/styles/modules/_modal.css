@@ -1,14 +1,18 @@
 .modal{
-  position: absolute;
-  z-index: -1;
+  display: none;
+  @mixin atMedium{
+    display: block;
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    transition: opacity 1s ease;
+    opacity: 0;
 
-  top: 0;
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  opacity: 0;
-  transition: opacity 1s ease;
+  }
   &-content{
     padding: 2em;
     width: 400px;
@@ -26,7 +30,7 @@
       }
     }
   }
-  &-hamburger{
+  /* &-hamburger{
     padding: .5em;
     float: right;
     cursor: pointer;
@@ -62,5 +66,5 @@
       transform-origin: 0 100%;
       transform: rotateZ(-45deg)  scaleX(1.25) translateX(-1px)   translateY(.5px);
     }
-  }
+  } */
 }

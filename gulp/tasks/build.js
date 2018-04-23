@@ -58,7 +58,8 @@ gulp.task('usemin', ['styles', 'scripts'], function () {
         './app/skills.html',
         './app/software.html',
         './app/cursade.html',
-        './app/quiui.html'
+        './app/quiui.html',
+        './app/chatiflix.html'
     ];
    return gulp.src(pathsToHTML)
        .pipe(usemin({

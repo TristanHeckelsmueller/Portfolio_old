@@ -1,182 +1,172 @@
-<svg width="297" height="293" viewBox="0 0 297 293" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="188" height="185" viewBox="0 0 188 185" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g id="Canvas" fill="none">
 <g id="Education">
 <g id="Book 2">
 <g id="Vector">
-<path d="M 15.3321 0L 296.504 0L 296.491 9.82123L 293.382 9.82123C 287.296 33.296 290.283 57.3703 294.021 72.0223L 296.504 72.0223L 296.504 80.2067L 15.3321 80.2067C -5.11063 80.2067 -5.11078 0 15.3321 0Z" transform="translate(0 212.793)" fill="#7D2D00"/>
+<path d="M 9.68066 0L 187.213 0L 187.204 6.20112L 185.241 6.20112C 181.398 21.0231 183.285 36.2235 185.645 45.4749L 187.213 45.4749L 187.213 50.6425L 9.68066 50.6425C -3.22685 50.6425 -3.22694 0 9.68066 0Z" transform="translate(0 134.358)" fill="#7D2D00"/>
 </g>
 <g id="Vector 2">
-<path d="M 15.1652 1.63687L 290.994 0C 283.547 24.5531 288.849 50.743 291.828 62.2011L 15.1656 62.2011C -4.3005 62.2011 -5.79595 1.63687 15.1652 1.63687Z" transform="translate(5.17212 222.615)" fill="#DBDBDB"/>
+<path d="M 9.57532 1.03352L 183.733 0C 179.031 15.5028 182.379 32.0391 184.26 39.2737L 9.57554 39.2737C -2.71533 39.2737 -3.65956 1.03352 9.57532 1.03352Z" transform="translate(3.26562 140.559)" fill="#DBDBDB"/>
 </g>
 <g id="Vector 2.1">
-<path d="M 12.2421 0.430756L 289.308 0C 288.65 3.27374 287.484 9.82123 285.988 16.3687L 0 16.3687C 2.99119 3.27374 12.2421 0.430756 12.2421 0.430756Z" transform="translate(6.854 222.615)" fill="#CCCCCC"/>
+<path d="M 7.72967 0.271979L 182.669 0C 182.254 2.06704 181.517 6.20112 180.573 10.3352L 0 10.3352C 1.88864 2.06704 7.72967 0.271979 7.72967 0.271979Z" transform="translate(4.32788 140.559)" fill="#CCCCCC"/>
 </g>
 </g>
 <g id="Group 2">
 <g id="Vector_2">
-<path d="M 0 62.3632L 0 0L 7.47799 0L 8.97358 62.3632C 11.9648 86.7542 80.7622 86.7542 83.7534 62.3632L 85.249 0L 92.727 0L 92.727 62.3632C 85.249 103.123 7.47799 104.76 0 62.3632Z" transform="translate(6.85437 68.7486)" fill="black"/>
-<path d="M 0 62.3632L 0 0L 7.47799 0L 8.97358 62.3632C 11.9648 86.7542 80.7622 86.7542 83.7534 62.3632L 85.249 0L 92.727 0L 92.727 62.3632C 85.249 103.123 7.47799 104.76 0 62.3632Z" transform="translate(6.85437 68.7486)" fill="url(#paint0_linear)"/>
+<path d="M 0 39.3761L 0 0L 4.72159 0L 5.66591 39.3761C 7.55455 54.7765 50.9932 54.7765 52.8819 39.3761L 53.8262 0L 58.5478 0L 58.5478 39.3761C 53.8262 65.1117 4.72159 66.1453 0 39.3761Z" transform="translate(4.32788 43.4078)" fill="#171717"/>
 </g>
 <g id="Microphone">
 <g id="Micro">
-<path d="M 75.4787 68.7486C 75.4787 106.717 82.9567 137.497 38.0888 137.497C -6.77912 137.497 0.69886 106.717 0.69886 68.7486C 0.69886 30.7798 -8.27471 0 38.0888 0C 84.4523 0 75.4787 30.7798 75.4787 68.7486Z" transform="translate(15.129 0)" fill="#E6E6E6"/>
+<path d="M 47.6572 43.4078C 47.6572 67.3813 52.3788 86.8156 24.0492 86.8156C -4.28033 86.8156 0.44126 67.3813 0.44126 43.4078C 0.44126 19.4343 -5.22465 0 24.0492 0C 53.3231 0 47.6572 19.4343 47.6572 43.4078Z" transform="translate(9.55249 0)" fill="#E5E5E5"/>
 </g>
 <g id="Group">
 <g id="Rectangle">
-<rect width="68.7975" height="6.54749" transform="translate(18.8191 39.2849)" fill="black"/>
-<rect width="68.7975" height="6.54749" transform="translate(18.8191 39.2849)" fill="url(#paint1_linear)"/>
+<rect width="43.4387" height="4.13408" transform="translate(11.8823 24.8045)" fill="black"/>
+<rect width="43.4387" height="4.13408" transform="translate(11.8823 24.8045)" fill="url(#paint0_linear)"/>
 </g>
 <g id="Rectangle_2">
-<rect width="68.7975" height="6.54749" transform="translate(18.8191 65.4749)" fill="black"/>
-<rect width="68.7975" height="6.54749" transform="translate(18.8191 65.4749)" fill="url(#paint2_linear)"/>
+<rect width="43.4387" height="4.13408" transform="translate(11.8823 41.3408)" fill="black"/>
+<rect width="43.4387" height="4.13408" transform="translate(11.8823 41.3408)" fill="url(#paint1_linear)"/>
 </g>
 <g id="Rectangle_3">
-<rect width="68.7975" height="6.54749" transform="translate(18.8191 78.5698)" fill="black"/>
-<rect width="68.7975" height="6.54749" transform="translate(18.8191 78.5698)" fill="url(#paint3_linear)"/>
+<rect width="43.4387" height="4.13408" transform="translate(11.8823 49.6089)" fill="black"/>
+<rect width="43.4387" height="4.13408" transform="translate(11.8823 49.6089)" fill="url(#paint2_linear)"/>
 </g>
 <g id="Rectangle_4">
-<rect width="68.7975" height="6.54749" transform="translate(18.8191 91.6648)" fill="black"/>
-<rect width="68.7975" height="6.54749" transform="translate(18.8191 91.6648)" fill="url(#paint4_linear)"/>
+<rect width="43.4387" height="4.13408" transform="translate(11.8823 57.8771)" fill="black"/>
+<rect width="43.4387" height="4.13408" transform="translate(11.8823 57.8771)" fill="url(#paint3_linear)"/>
 </g>
 <g id="Rectangle_5">
-<rect width="5.98239" height="16.3687" transform="translate(27.7927 104.76)" fill="black"/>
-<rect width="5.98239" height="16.3687" transform="translate(27.7927 104.76)" fill="url(#paint5_linear)"/>
+<rect width="3.77728" height="10.3352" transform="translate(17.5486 66.1452)" fill="black"/>
+<rect width="3.77728" height="10.3352" transform="translate(17.5486 66.1452)" fill="url(#paint4_linear)"/>
 </g>
 <g id="Rectangle_6">
-<rect width="5.98239" height="22.9162" transform="translate(39.7574 104.76)" fill="black"/>
-<rect width="5.98239" height="22.9162" transform="translate(39.7574 104.76)" fill="url(#paint6_linear)"/>
+<rect width="3.77728" height="14.4693" transform="translate(25.103 66.1452)" fill="black"/>
+<rect width="3.77728" height="14.4693" transform="translate(25.103 66.1452)" fill="url(#paint5_linear)"/>
 </g>
 <g id="Rectangle_7">
-<rect width="5.98239" height="22.9162" transform="translate(51.7223 104.76)" fill="black"/>
-<rect width="5.98239" height="22.9162" transform="translate(51.7223 104.76)" fill="url(#paint7_linear)"/>
+<rect width="3.77728" height="14.4693" transform="translate(32.6572 66.1452)" fill="black"/>
+<rect width="3.77728" height="14.4693" transform="translate(32.6572 66.1452)" fill="url(#paint6_linear)"/>
 </g>
 <g id="Rectangle_8">
-<rect width="5.98239" height="22.9162" transform="translate(63.687 104.76)" fill="black"/>
-<rect width="5.98239" height="22.9162" transform="translate(63.687 104.76)" fill="url(#paint8_linear)"/>
+<rect width="3.77728" height="14.4693" transform="translate(40.2117 66.1452)" fill="black"/>
+<rect width="3.77728" height="14.4693" transform="translate(40.2117 66.1452)" fill="url(#paint7_linear)"/>
 </g>
 <g id="Rectangle_9">
-<rect width="5.98239" height="16.3687" transform="translate(75.6519 104.76)" fill="black"/>
-<rect width="5.98239" height="16.3687" transform="translate(75.6519 104.76)" fill="url(#paint9_linear)"/>
+<rect width="3.77728" height="10.3352" transform="translate(47.7664 66.1452)" fill="black"/>
+<rect width="3.77728" height="10.3352" transform="translate(47.7664 66.1452)" fill="url(#paint8_linear)"/>
 </g>
 <g id="Rectangle_10">
-<rect width="5.98239" height="16.3687" transform="translate(27.7927 16.3687)" fill="black"/>
-<rect width="5.98239" height="16.3687" transform="translate(27.7927 16.3687)" fill="url(#paint10_linear)"/>
+<rect width="3.77728" height="10.3352" transform="translate(17.5486 10.3352)" fill="black"/>
+<rect width="3.77728" height="10.3352" transform="translate(17.5486 10.3352)" fill="url(#paint9_linear)"/>
 </g>
 <g id="Rectangle_11">
-<rect width="5.98239" height="22.9162" transform="translate(39.7574 9.82123)" fill="black"/>
-<rect width="5.98239" height="22.9162" transform="translate(39.7574 9.82123)" fill="url(#paint11_linear)"/>
+<rect width="3.77728" height="14.4693" transform="translate(25.103 6.20111)" fill="black"/>
+<rect width="3.77728" height="14.4693" transform="translate(25.103 6.20111)" fill="url(#paint10_linear)"/>
 </g>
 <g id="Rectangle_12">
-<rect width="5.98239" height="22.9162" transform="translate(51.7223 9.82123)" fill="black"/>
-<rect width="5.98239" height="22.9162" transform="translate(51.7223 9.82123)" fill="url(#paint12_linear)"/>
+<rect width="3.77728" height="14.4693" transform="translate(32.6572 6.20111)" fill="black"/>
+<rect width="3.77728" height="14.4693" transform="translate(32.6572 6.20111)" fill="url(#paint11_linear)"/>
 </g>
 <g id="Rectangle_13">
-<rect width="5.98239" height="22.9162" transform="translate(63.687 9.82123)" fill="black"/>
-<rect width="5.98239" height="22.9162" transform="translate(63.687 9.82123)" fill="url(#paint13_linear)"/>
+<rect width="3.77728" height="14.4693" transform="translate(40.2117 6.20111)" fill="black"/>
+<rect width="3.77728" height="14.4693" transform="translate(40.2117 6.20111)" fill="url(#paint12_linear)"/>
 </g>
 <g id="Rectangle_14">
-<rect width="5.98239" height="16.3687" transform="translate(75.6519 16.3687)" fill="black"/>
-<rect width="5.98239" height="16.3687" transform="translate(75.6519 16.3687)" fill="url(#paint14_linear)"/>
+<rect width="3.77728" height="10.3352" transform="translate(47.7664 10.3352)" fill="black"/>
+<rect width="3.77728" height="10.3352" transform="translate(47.7664 10.3352)" fill="url(#paint13_linear)"/>
 </g>
 <g id="Rectangle_15">
-<rect width="68.7975" height="6.54749" transform="translate(18.8191 52.3799)" fill="black"/>
-<rect width="68.7975" height="6.54749" transform="translate(18.8191 52.3799)" fill="url(#paint15_linear)"/>
+<rect width="43.4387" height="4.13408" transform="translate(11.8823 33.0726)" fill="black"/>
+<rect width="43.4387" height="4.13408" transform="translate(11.8823 33.0726)" fill="url(#paint14_linear)"/>
 </g>
 </g>
 </g>
 <g id="Vector 2_2">
-<path d="M 32.9031 24.5531L 32.9031 0L 59.8239 0L 59.8239 24.5531L 56.8327 24.5531L 56.8327 40.9218L 92.727 40.9218L 92.727 57.2905L 0 57.2905L 0 40.9218L 35.8943 40.9218L 35.8943 24.5531L 32.9031 24.5531Z" transform="translate(6.85437 155.503)" fill="black"/>
-<path d="M 32.9031 24.5531L 32.9031 0L 59.8239 0L 59.8239 24.5531L 56.8327 24.5531L 56.8327 40.9218L 92.727 40.9218L 92.727 57.2905L 0 57.2905L 0 40.9218L 35.8943 40.9218L 35.8943 24.5531L 32.9031 24.5531Z" transform="translate(6.85437 155.503)" fill="url(#paint16_linear)"/>
+<path d="M 20.775 15.5028L 20.775 0L 37.7728 0L 37.7728 15.5028L 35.8841 15.5028L 35.8841 25.838L 58.5478 25.838L 58.5478 36.1732L 0 36.1732L 0 25.838L 22.6637 25.838L 22.6637 15.5028L 20.775 15.5028Z" transform="translate(4.32788 98.1844)" fill="#171717"/>
 </g>
 </g>
 <g id="Group 3">
 <g id="Vector 2_3">
-<path d="M 77.771 32.7374L 74.7799 32.7374L 74.7799 29.4637L 68.7975 29.4637L 58.3283 19.6425C 58.3283 19.6425 53.8415 27.8268 47.8591 29.4637C 41.8767 31.1006 20.9384 26.1899 2.99119 29.4637L 0 27.8268L 0 22.9162L 5.98239 13.095C 5.98239 13.095 9.69826 10.1999 11.9648 8.18436C 13.992 6.38165 24.1191 4.91061 25.4252 4.91061C 35.8943 4.91061 35.5228 1.99491e-06 44.8679 1.9946e-06C 46.3635 1.99455e-06 49.3321 1.63687 49.3547 1.63687C 49.3773 1.63687 51.315 2.39619 52.3459 3.27375L 56.8327 6.54749L 58.3283 8.18436L 59.8239 11.4581L 59.8239 16.3687L 64.3107 19.6425L 67.3019 22.9162L 70.2931 26.1899L 74.7799 26.1899L 74.7799 19.6425L 77.771 14.7318L 77.771 32.7374Z" transform="translate(72.6606 68.7486)" fill="#18733E"/>
-<path d="M 77.771 32.7374L 74.7799 32.7374L 74.7799 29.4637L 68.7975 29.4637L 58.3283 19.6425C 58.3283 19.6425 53.8415 27.8268 47.8591 29.4637C 41.8767 31.1006 20.9384 26.1899 2.99119 29.4637L 0 27.8268L 0 22.9162L 5.98239 13.095C 5.98239 13.095 9.69826 10.1999 11.9648 8.18436C 13.992 6.38165 24.1191 4.91061 25.4252 4.91061C 35.8943 4.91061 35.5228 1.99491e-06 44.8679 1.9946e-06C 46.3635 1.99455e-06 49.3321 1.63687 49.3547 1.63687C 49.3773 1.63687 51.315 2.39619 52.3459 3.27375L 56.8327 6.54749L 58.3283 8.18436L 59.8239 11.4581L 59.8239 16.3687L 64.3107 19.6425L 67.3019 22.9162L 70.2931 26.1899L 74.7799 26.1899L 74.7799 19.6425L 77.771 14.7318L 77.771 32.7374Z" transform="translate(72.6606 68.7486)" fill="url(#paint17_linear)"/>
+<path d="M 49.1046 20.6704L 47.216 20.6704L 47.216 18.6034L 43.4387 18.6034L 36.8284 12.4022C 36.8284 12.4022 33.9955 17.5698 30.2182 18.6034C 26.4409 19.6369 13.2205 16.5363 1.88864 18.6034L 0 17.5698L 0 14.4693L 3.77728 8.26816C 3.77728 8.26816 6.12348 6.44018 7.55455 5.1676C 8.83454 4.02937 15.2288 3.10056 16.0534 3.10056C 22.6637 3.10056 22.4291 1.25958e-06 28.3296 0C 29.2739 1.25935e-06 31.1482 1.03352 31.1625 1.03352C 31.1768 1.03352 32.4003 1.51295 33.0512 2.06704L 35.8841 4.13408L 36.8284 5.1676L 37.7728 7.23464L 37.7728 10.3352L 40.6057 12.4022L 42.4944 14.4693L 44.383 16.5363L 47.216 16.5363L 47.216 12.4022L 49.1046 9.30168L 49.1046 20.6704Z" transform="translate(45.8779 43.4078)" fill="#18733E"/>
+<path d="M 49.1046 20.6704L 47.216 20.6704L 47.216 18.6034L 43.4387 18.6034L 36.8284 12.4022C 36.8284 12.4022 33.9955 17.5698 30.2182 18.6034C 26.4409 19.6369 13.2205 16.5363 1.88864 18.6034L 0 17.5698L 0 14.4693L 3.77728 8.26816C 3.77728 8.26816 6.12348 6.44018 7.55455 5.1676C 8.83454 4.02937 15.2288 3.10056 16.0534 3.10056C 22.6637 3.10056 22.4291 1.25958e-06 28.3296 0C 29.2739 1.25935e-06 31.1482 1.03352 31.1625 1.03352C 31.1768 1.03352 32.4003 1.51295 33.0512 2.06704L 35.8841 4.13408L 36.8284 5.1676L 37.7728 7.23464L 37.7728 10.3352L 40.6057 12.4022L 42.4944 14.4693L 44.383 16.5363L 47.216 16.5363L 47.216 12.4022L 49.1046 9.30168L 49.1046 20.6704Z" transform="translate(45.8779 43.4078)" fill="url(#paint15_linear)"/>
 </g>
 <g id="Vector_3">
-<path d="M 0.104537 42.6634C -2.28842 5.99744 36.9959 -0.986545 56.9372 0.104703C 100.01 0.104703 107.788 26.2946 107.788 42.6634C 107.788 67.2164 86.8492 113.049 56.9372 113.049C 19.5473 113.049 3.09573 88.4958 0.104537 42.6634Z" transform="translate(96.4858 99.7445)" fill="#BF0D0D"/>
+<path d="M 0.0660047 26.9376C -1.44491 3.78678 23.3592 -0.622904 35.9501 0.0661092C 63.1465 0.0661092 68.057 16.6024 68.057 26.9376C 68.057 42.4404 54.8365 71.379 35.9501 71.379C 12.3422 71.379 1.95464 55.8762 0.0660047 26.9376Z" transform="translate(60.9211 62.9786)" fill="#BF0D0D"/>
 </g>
 <g id="Ellipse">
-<ellipse cx="14.4292" cy="7.92403" rx="14.4292" ry="7.92403" transform="matrix(0.760028 -0.64989 0.581006 0.813899 111.546 126.788)" fill="#E84141"/>
+<ellipse cx="9.11061" cy="5.00323" rx="9.11061" ry="5.00323" transform="matrix(0.760028 -0.64989 0.581006 0.813899 70.4302 80.0541)" fill="#E84141"/>
 </g>
 <g id="Vector_4">
-<path d="M 0 112.944C 26.9207 68.7486 11.9648 19.6425 0 0C 40.6802 0 52.3459 21.2793 50.8503 40.9218C 50.8503 83.4804 17.9472 116.218 0 112.944Z" transform="translate(153.423 99.8492)" fill="#940909"/>
+<path d="M 0 71.3129C 16.9977 43.4078 7.55455 12.4022 0 0C 25.6855 0 33.0512 13.4358 32.1068 25.838C 32.1068 52.7095 11.3318 73.3799 0 71.3129Z" transform="translate(96.8711 63.0447)" fill="#940909"/>
 </g>
 </g>
 </g>
 </g>
 <defs>
 
-<linearGradient id="paint0_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 93.5498 -92.727 0 92.727 0)">
-<stop stop-color="#7A7A7A"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
-</linearGradient>
-<linearGradient id="paint1_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 6.54749 -68.7975 0 68.7975 0)">
+<linearGradient id="paint0_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 4.13408 -43.4387 0 43.4387 0)">
 <stop offset="0.364641" stop-color="#1C1C1C"/>
 <stop offset="0.690608" stop-color="white" stop-opacity="0"/>
 </linearGradient>
-<linearGradient id="paint2_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 6.54749 -68.7975 0 68.7975 0)">
+<linearGradient id="paint1_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 4.13408 -43.4387 0 43.4387 0)">
 <stop offset="0.364641" stop-color="#1C1C1C"/>
 <stop offset="0.690608" stop-color="white" stop-opacity="0"/>
 </linearGradient>
-<linearGradient id="paint3_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 6.54749 -68.7975 0 68.7975 0)">
+<linearGradient id="paint2_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 4.13408 -43.4387 0 43.4387 0)">
 <stop offset="0.364641" stop-color="#1C1C1C"/>
 <stop offset="0.690608" stop-color="white" stop-opacity="0"/>
 </linearGradient>
-<linearGradient id="paint4_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 6.54749 -68.7975 0 68.7975 0)">
+<linearGradient id="paint3_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 4.13408 -43.4387 0 43.4387 0)">
 <stop offset="0.364641" stop-color="#1C1C1C"/>
 <stop offset="0.690608" stop-color="white" stop-opacity="0"/>
 </linearGradient>
-<linearGradient id="paint5_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 16.3687 -5.98239 0 5.98239 0)">
+<linearGradient id="paint4_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 10.3352 -3.77728 0 3.77728 0)">
 <stop/>
 <stop offset="1" stop-color="white" stop-opacity="0"/>
 </linearGradient>
-<linearGradient id="paint6_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 22.9162 -5.98239 0 5.98239 0)">
+<linearGradient id="paint5_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 14.4693 -3.77728 0 3.77728 0)">
 <stop/>
 <stop offset="1" stop-color="white" stop-opacity="0"/>
 </linearGradient>
-<linearGradient id="paint7_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 22.9162 -5.98239 0 5.98239 0)">
+<linearGradient id="paint6_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 14.4693 -3.77728 0 3.77728 0)">
 <stop/>
 <stop offset="1" stop-color="white" stop-opacity="0"/>
 </linearGradient>
-<linearGradient id="paint8_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 22.9162 -5.98239 0 5.98239 0)">
+<linearGradient id="paint7_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 14.4693 -3.77728 0 3.77728 0)">
 <stop/>
 <stop offset="1" stop-color="white" stop-opacity="0"/>
 </linearGradient>
-<linearGradient id="paint9_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 16.3687 -5.98239 0 5.98239 0)">
+<linearGradient id="paint8_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 10.3352 -3.77728 0 3.77728 0)">
 <stop/>
 <stop offset="1" stop-color="white" stop-opacity="0"/>
 </linearGradient>
-<linearGradient id="paint10_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 16.3687 -5.98239 0 5.98239 0)">
+<linearGradient id="paint9_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 10.3352 -3.77728 0 3.77728 0)">
 <stop offset="0.292818" stop-color="#242424"/>
 <stop offset="0.845304" stop-color="white" stop-opacity="0"/>
 </linearGradient>
-<linearGradient id="paint11_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 22.9162 -5.98239 0 5.98239 0)">
+<linearGradient id="paint10_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 14.4693 -3.77728 0 3.77728 0)">
 <stop offset="0.292818" stop-color="#242424"/>
 <stop offset="0.845304" stop-color="white" stop-opacity="0"/>
 </linearGradient>
-<linearGradient id="paint12_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 22.9162 -5.98239 0 5.98239 0)">
+<linearGradient id="paint11_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 14.4693 -3.77728 0 3.77728 0)">
 <stop offset="0.292818" stop-color="#242424"/>
 <stop offset="0.845304" stop-color="white" stop-opacity="0"/>
 </linearGradient>
-<linearGradient id="paint13_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 22.9162 -5.98239 0 5.98239 0)">
+<linearGradient id="paint12_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 14.4693 -3.77728 0 3.77728 0)">
 <stop offset="0.292818" stop-color="#242424"/>
 <stop offset="0.845304" stop-color="white" stop-opacity="0"/>
 </linearGradient>
-<linearGradient id="paint14_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 16.3687 -5.98239 0 5.98239 0)">
+<linearGradient id="paint13_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 10.3352 -3.77728 0 3.77728 0)">
 <stop offset="0.292818" stop-color="#242424"/>
 <stop offset="0.845304" stop-color="white" stop-opacity="0"/>
 </linearGradient>
-<linearGradient id="paint15_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 6.54749 -68.7975 0 68.7975 0)">
+<linearGradient id="paint14_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 4.13408 -43.4387 0 43.4387 0)">
 <stop offset="0.364641" stop-color="#1C1C1C"/>
 <stop offset="0.690608" stop-color="white" stop-opacity="0"/>
 </linearGradient>
-<linearGradient id="paint16_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 57.2905 -92.727 0 92.727 0)">
-<stop/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
-</linearGradient>
-<linearGradient id="paint17_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 32.7374 -77.771 0 77.771 0)">
+<linearGradient id="paint15_linear" x2="1" gradientUnits="userSpaceOnUse" gradientTransform="matrix(0 20.6704 -49.1046 0 49.1046 0)">
 <stop stop-color="#46EB8C"/>
 <stop offset="1" stop-color="white" stop-opacity="0"/>
 </linearGradient>

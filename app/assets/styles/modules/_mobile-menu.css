@@ -1,0 +1,28 @@
+.mobile-menu{
+  opacity: 0;
+  z-index: -10;
+  width: 0;
+  position: absolute;
+  right: 0;
+  background: #009688;
+  top: 9vh;
+  z-index: 20;
+  padding: 1em;
+  transition: 1s all ease;
+  & ul{
+    padding: 0;
+    margin: 0;
+    overflow: visible;
+  }
+  & li{
+    list-style: circle !important;
+    padding: 1em;
+    text-align: center;
+  }
+}
+
+.show{
+  width: 75%;
+  opacity: 1;
+  z-index: 7;
+}

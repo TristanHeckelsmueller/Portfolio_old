@@ -1,19 +1,27 @@
 .header{
-    position: relative;
-    color: #ffffff;
-    background: #333333;
+  position: relative;
+  color: #ffffff;
+  background: #333333;
+  z-index: 6;
+  height: 9vh;
+  padding: 0em 1em;
+  overflow: visible;
+  @mixin atMedium{
     padding: 0em 1.5em;
     height: 5vh;
-    z-index: 6;
+  }
 }
 .nav{
   display: flex;
   align-items: center;
   height: 100%;
   &__title{
-    width: 50%;
+    width: 80%;
     display: flex;
     align-items: center;
+    @mixin atMedium{
+      width: 50%;
+    }
     & img{
       width: 20px;
       margin-right: 1em;
@@ -32,7 +40,11 @@
     }
   }
   &__list{
-    width: 50%;
+    display: none;
+    @mixin atMedium{
+      width: 50%;
+      display: block;
+    }
     & ul{
       float: right;
       padding: 0;

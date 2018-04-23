@@ -30,3 +30,9 @@
 #quiui{
   background: url('https://tristanheckelsmueller.github.io/Portfolio/assets/images/Quiui-Header.png');
 }
+#chatiflix{
+  background: url('/assets/images/Chatiflix-Header.png');
+}
+.chatiflix-link{
+  color: $orange;
+}

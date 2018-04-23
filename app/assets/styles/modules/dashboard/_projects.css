@@ -1,36 +1,78 @@
 .dashboard{
   &__projects{
+     height: 25vh;
+    /* width: 100vw;  */
     cursor: pointer;
-    float: left;
-    height: 47.5vh;
-    width: 33.5vw;
     z-index: 2;
     transition: all ease 1s;
-    border: 1px solid #000;
+    @mixin atMedium{
+      overflow: hidden;
+      border: 1px solid #000;
+      width: 33.5vw;
+      height: 47.5vh;
+      float: left;
+
+    }
     &--col{
-      transition: all ease 1s;
-      overflow: visible;
-      width: 300vw;
-      /* background: #000; */
+        transition: all ease 1s;
+        overflow: visible;
+        background: #000;
+        @mixin atMedium{
+          width: 300vw;
+          height: 24vw;
+
+        }
+      @mixin atMedium{
+        &::after{
+          content: "";
+          clear: both;
+          display: table;
+        }
+      }
     }
     &--background{
+      @mixin atMedium{
+        position: absolute;
+        width: 33%;
+        height: 45vh;
+      }
       /* overflow: hidden; */
-      position: absolute;
-      width: 33%;
-      height: 45vh;
+
       z-index: -1;
       background-size: cover;
       filter: grayscale(100%);
     }
     &--title{
-      padding: 1em 2em;
       text-align: center;
+      color: #fff;
+      @mixin atMedium{
+        color: #fff;
+      }
+      }
+      @mixin atMedium{
+        padding: 1em 2em;
+
+      }
+      & h3{
+        margin: .2em;
+        @mixin atMedium{
+          margin: 1em 0;
+        }
      }
     & ul{
-      padding: 0em 2em;
-      margin-top: 2em;
+      padding: 0;
+      margin: 0;
+      @mixin atMedium{
+        padding: 0em 2em;
+        margin-top: 2em;
+
+      }
       & li{
-        margin-bottom: 5em;
+        margin: 0;
+        padding: .4em;
+        @mixin atMedium{
+          margin-bottom: 5em;
+        }
 
       }
     }
