@@ -25,13 +25,13 @@
   }
 }
 #cursade{
-  background: url('https://tristanheckelsmueller.github.io/Portfolio/assets/images/Cursade-Header.png');
+  background: url('/Portfolio/assets/images/Cursade-Header.png');
 }
 #quiui{
-  background: url('https://tristanheckelsmueller.github.io/Portfolio/assets/images/Quiui-Header.png');
+  background: url('/Portfolio/assets/images/Quiui-Header.png');
 }
 #chatiflix{
-  background: url('/assets/images/Chatiflix-Header.png');
+  background: url('/Portfolio/assets/images/Chatiflix-Header.png');
 }
 .chatiflix-link{
   color: $orange;
