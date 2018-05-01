@@ -15,35 +15,49 @@ let school_start_text = '<h2>Einschulung Untergermaringen</h2><p>After a long jo
 let school_start = content_event + school_start_id + '>' + school_start_text + '</div>';
 
 
+let y1996 = $('#1996');
+let y2002 = $('#2002');
 
-console.log(birth);
 
-let counter = 0;
+
 class CV {
   constructor() {
-    $('#1996').click(function () {
-      $(this).toggleClass('is-active');
-      counter++;
-      console.log(counter);
-      if (counter <= 1) {
+    let counter = 0;
+    console.log('All' + counter);
+    y1996.click(function () {
+      if (counter == 0) {
         $('.cv__content__container').append(birth);
       } else{
         $('.cv__content__event').remove();
-          return counter = 0;
+        $('.cv__content__container').append(birth);
+        return counter = 0;
       }
-    });
-    $('#2002').click(function () {
-      $(this).toggleClass('is-active');
+      //Sidebar
+      $(this).addClass('is-active');
+      y2002.removeClass('is-active');
+      //Content
       counter++;
-      console.log(counter);
-      if (counter <= 1) {
+      console.log('1996 ' + counter);
+
+    });
+    y2002.click(function () {
+      if (counter == 0) {
         $('.cv__content__container').append(school_start);
       } else{
         $('.cv__content__event').remove();
         $('.cv__content__container').append(school_start);
         return counter = 0;
       }
+
+      //Sidebar
+      $(this).toggleClass('is-active');
+      y1996.removeClass('is-active');
+
+      //Content
+      counter++;
+      console.log('2002 ' + counter);
     });
+    
   }
 }
 

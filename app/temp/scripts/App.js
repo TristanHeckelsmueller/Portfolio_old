@@ -11502,15 +11502,15 @@ var Trigger = function Trigger() {
     (0, _jquery2.default)(".modal").removeClass("show-modal");
   });
   // Curriculum Vitae Full Size
-  (0, _jquery2.default)(".dashboard__cv").click(function () {
+  (0, _jquery2.default)(".cv__content").click(function () {
 
     (0, _jquery2.default)(".astronaut").addClass("astronaut-fly");
     (0, _jquery2.default)(".dashboard__cv").addClass("show-cv");
   });
-  (0, _jquery2.default)("#cv").click(function () {
-
-    (0, _jquery2.default)(".dashboard__cv").addClass("show-cv");
+  (0, _jquery2.default)('.cv__close').click(function () {
+    (0, _jquery2.default)(".dashboard__cv").removeClass("show-cv");
   });
+
   // Projects Full Size
   (0, _jquery2.default)(".dashboard__projects").click(function () {
 
@@ -11559,35 +11559,45 @@ var school_start_id = 'id="school-start"';
 var school_start_text = '<h2>Einschulung Untergermaringen</h2><p>After a long journey I finished my school career with the bayrischen Abitur.3.1 is not a very good finish, but it counts as the hardest Abitur in Germany.</p>';
 var school_start = content_event + school_start_id + '>' + school_start_text + '</div>';
 
-console.log(birth);
-
-var counter = 0;
+var y1996 = (0, _jquery2.default)('#1996');
+var y2002 = (0, _jquery2.default)('#2002');
 
 var CV = function CV() {
   _classCallCheck(this, CV);
 
-  (0, _jquery2.default)('#1996').click(function () {
-    (0, _jquery2.default)(this).toggleClass('is-active');
-    counter++;
-    console.log(counter);
-    if (counter <= 1) {
+  var counter = 0;
+  console.log('All' + counter);
+  y1996.click(function () {
+    if (counter == 0) {
       (0, _jquery2.default)('.cv__content__container').append(birth);
     } else {
       (0, _jquery2.default)('.cv__content__event').remove();
+      (0, _jquery2.default)('.cv__content__container').append(birth);
       return counter = 0;
     }
-  });
-  (0, _jquery2.default)('#2002').click(function () {
-    (0, _jquery2.default)(this).toggleClass('is-active');
+    //Sidebar
+    (0, _jquery2.default)(this).addClass('is-active');
+    y2002.removeClass('is-active');
+    //Content
     counter++;
-    console.log(counter);
-    if (counter <= 1) {
+    console.log('1996 ' + counter);
+  });
+  y2002.click(function () {
+    if (counter == 0) {
       (0, _jquery2.default)('.cv__content__container').append(school_start);
     } else {
       (0, _jquery2.default)('.cv__content__event').remove();
       (0, _jquery2.default)('.cv__content__container').append(school_start);
       return counter = 0;
     }
+
+    //Sidebar
+    (0, _jquery2.default)(this).toggleClass('is-active');
+    y1996.removeClass('is-active');
+
+    //Content
+    counter++;
+    console.log('2002 ' + counter);
   });
 };
 
