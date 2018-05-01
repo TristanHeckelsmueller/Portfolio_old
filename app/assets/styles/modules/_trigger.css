@@ -12,14 +12,16 @@
 }
 
 .show-cv{
-  /* position: absolute; */
+  position: absolute;
   opacity: 1 !important;
-  z-index: 5 !important;
+  z-index: 300 !important;
   transition: 1s all ease;
+  bottom: 0;
+  right: 0;
   @mixin atMedium{
-    transform: translateY(-47vh);
-    width: 33.5vw;
-    height: 95vh;
+    /* transform: translateY(-46vh) translateX(-66.5vw); */
+    width: 100vw;
+    height: 100vh;
   }
 }
 .show-projects{
@@ -39,4 +41,7 @@
 }
 .no-blur{
   filter: blur(0px);
+}
+.is-active{
+  color: $orange;
 }

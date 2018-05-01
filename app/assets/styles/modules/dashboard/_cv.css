@@ -3,7 +3,7 @@
     height: 100vh;
     /* width: 100vw; */
     cursor: pointer;
-    padding: 1em 2em;
+    /* padding: 1em 2em; */
     background: #1a1a1a;
     /* text-align: center; */
     transition: all ease 1s;
@@ -30,5 +30,54 @@
       filter: blur(0px);
       }
     }
+  }
+}
+
+
+.cv{
+  display: flex;
+  &__sidebar{
+    width: 20%;
+    text-align: center;
+    border-right: 1px solid #fff;
+    & img{
+      width: 20%;
+    }
+    &__nav{
+      &--year{
+        margin: 2em 0;
+        font-size: 1.3em;
+      }
+    }
+    &--astronaut{
+      margin-top: 2em;
+      height: 22%;
+    }
+  }
+  &__content{
+    height: 100%;
+    transform:  translateY(25%);
+    padding: 4em;
+
+    &__caption{
+      width: 50%;
+      border-bottom: 1px solid #fff;
+    }
+    &__event{
+      width: 50%;
+      & h2{
+        font-weight: 100;
+        font-size: 3em;
+        margin: 1rem 0;
+      }
+      & p {
+        margin: 0;
+        font-size: 1.1rem;
+        line-height: 1.6em;
+      }
+    }
+  }
+  &__close{
+
   }
 }
