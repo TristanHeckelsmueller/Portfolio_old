@@ -1,12 +1,44 @@
 .projects{
   display: grid;
-  grid-column-gap: 1px 70px;
+  grid-column-gap: 1em;
   grid-template-columns: auto auto auto;
   padding: 3em;
   &__column{
+    margin-bottom: 1em;
     display: inline-block;
-    width: 200px;
-    height: 200px;
+    width: 450px;
+    height: 250px;
     background: #fff;
+    filter: grayscale(100%);
+    transition: .5s all ease;
+    &:hover{
+      filter: grayscale(0%);
+      cursor: pointer;
+    }
   }
+}
+
+#cursade_main{
+  background: url('/assets/images/Cursade-Header.png');
+  background-size: cover;
+}
+#ouiui{
+  background: url('/assets/images/Ouiui-Header.png');
+  background-size: cover;
+}
+#chat{
+  background: url('/assets/images/Chatiflix-Header.png');
+  background-size: cover;
+}
+#hob{
+  background: url('/assets/images/HOB-Header.png');
+  background-size: cover;
+}
+#dao_home{
+  background: url('/assets/images/DAO-Header.png');
+  background-size: cover;
+}
+#fzg{
+  background: url('/assets/images/FZG-Header.png');
+  background-size: cover;
 }

@@ -604,6 +604,14 @@ a{
   height: 88vh;
 }
 
+.main h2{
+    margin: 0;
+    color: #fff;
+    padding: 3rem 0 0 3rem;
+    font-weight: 100;
+    font-size: 1.7em;
+  }
+
 .border{
   background: #fff;
   display: none;
@@ -997,17 +1005,58 @@ a{
 
 .projects{
   display: grid;
-  grid-column-gap: 1px 70px;
+  grid-column-gap: 1em;
   grid-template-columns: auto auto auto;
   padding: 3em;
 }
 
 .projects__column{
+    margin-bottom: 1em;
     display: inline-block;
-    width: 200px;
-    height: 200px;
+    width: 450px;
+    height: 250px;
     background: #fff;
+    -webkit-filter: grayscale(100%);
+            filter: grayscale(100%);
+    -webkit-transition: .5s all ease;
+    transition: .5s all ease;
   }
+
+.projects__column:hover{
+      -webkit-filter: grayscale(0%);
+              filter: grayscale(0%);
+      cursor: pointer;
+    }
+
+#cursade_main{
+  background: url('/assets/images/Cursade-Header.png');
+  background-size: cover;
+}
+
+#ouiui{
+  background: url('/assets/images/Ouiui-Header.png');
+  background-size: cover;
+}
+
+#chat{
+  background: url('/assets/images/Chatiflix-Header.png');
+  background-size: cover;
+}
+
+#hob{
+  background: url('/assets/images/HOB-Header.png');
+  background-size: cover;
+}
+
+#dao_home{
+  background: url('/assets/images/DAO-Header.png');
+  background-size: cover;
+}
+
+#fzg{
+  background: url('/assets/images/FZG-Header.png');
+  background-size: cover;
+}
 
 .wp-content{
   background-size: cover !important;

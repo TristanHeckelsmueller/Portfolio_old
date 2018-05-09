@@ -35,10 +35,14 @@ class Trigger {
     let fzg = '<div class="projects__column" id="fzg"></div>';
     let dao_home = '<div class="projects__column" id="dao_home"></div>';
 
-    let projects_div = '<div class="projects">' + cursade + ouiui + chat + hob + fzg + dao_home + '</div>';
+    let projects_div = '<h2>Projects:</h2>' + '<div class="projects">' + cursade + ouiui + chat + hob + fzg + dao_home + '</div>';
+    let projects_counter = 0;
     $('#projects').click(function () {
-      $('.main').append(projects_div);
-      console.log('Projects');
+      if (projects_counter == 0) {
+        $('.main').append(projects_div);
+        projects_counter++;
+      }
+      console.log(projects_counter);
     });
 
 
