@@ -6,11 +6,11 @@ body {
 }
 *{
   box-sizing: border-box;
-  overflow-y: visible;
-  overflow-x: hidden;
+  /* overflow-y: visible;
+  overflow-x: hidden; */
   letter-spacing: .1em;
   @mixin atMedium{
-    overflow-y: hidden;
+    /* overflow-y: hidden; */
 
   }
 }

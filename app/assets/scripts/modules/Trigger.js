@@ -27,6 +27,21 @@ class Trigger {
       $(".dashboard__cv").removeClass("show-cv");
     })
 
+    //Projects
+    let cursade = '<div class="projects__column" id="cursade_main"></div>';
+    let ouiui = '<div class="projects__column" id="ouiui"></div>';
+    let chat = '<div class="projects__column" id="chat"></div>';
+    let hob = '<div class="projects__column" id="hob"></div>';
+    let fzg = '<div class="projects__column" id="fzg"></div>';
+    let dao_home = '<div class="projects__column" id="dao_home"></div>';
+
+    let projects_div = '<div class="projects">' + cursade + ouiui + chat + hob + fzg + dao_home + '</div>';
+    $('#projects').click(function () {
+      $('.main').append(projects_div);
+      console.log('Projects');
+    });
+
+
     // Projects Full Size
     $(".dashboard__projects").click(function(){
 

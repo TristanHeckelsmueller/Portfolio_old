@@ -19,6 +19,9 @@
     padding: 1em;
     text-align: center;
   }
+  @mixin atMedium{
+    display: none;
+  }
 }
 
 .show{

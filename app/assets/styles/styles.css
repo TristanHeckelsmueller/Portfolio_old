@@ -3,7 +3,7 @@
 @import "base/_mixins";
 @import "base/_global";
 @import "modules/_header.css";
-@import "modules/_dashboard.css";
+@import "modules/_main.css";
 @import "modules/_border.css";
 @import "modules/_trigger.css";
 @import "modules/_modal.css";
@@ -11,5 +11,7 @@
 @import "modules/_hamburger.css";
 @import "modules/_mobile-menu.css";
 @import "modules/_content.css";
+@import "modules/_projects.css";
 @import "modules/_webprojects.css";
 @import "modules/_astronaut.css";
+@import "modules/_footer.css";

@@ -11511,6 +11511,20 @@ var Trigger = function Trigger() {
     (0, _jquery2.default)(".dashboard__cv").removeClass("show-cv");
   });
 
+  //Projects
+  var cursade = '<div class="projects__column" id="cursade_main"></div>';
+  var ouiui = '<div class="projects__column" id="ouiui"></div>';
+  var chat = '<div class="projects__column" id="chat"></div>';
+  var hob = '<div class="projects__column" id="hob"></div>';
+  var fzg = '<div class="projects__column" id="fzg"></div>';
+  var dao_home = '<div class="projects__column" id="dao_home"></div>';
+
+  var projects_div = '<div class="projects">' + cursade + ouiui + chat + hob + fzg + dao_home + '</div>';
+  (0, _jquery2.default)('#projects').click(function () {
+    (0, _jquery2.default)('.main').append(projects_div);
+    console.log('Projects');
+  });
+
   // Projects Full Size
   (0, _jquery2.default)(".dashboard__projects").click(function () {
 

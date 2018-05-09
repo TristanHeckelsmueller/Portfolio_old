@@ -1,7 +1,7 @@
 .header{
   position: relative;
   color: #ffffff;
-  background: #333333;
+  background: #313131;
   z-index: 6;
   height: 9vh;
   padding: 0em 1em;
@@ -36,7 +36,6 @@
       margin: 0;
       font-size: 1em;
       font-weight: 100;
-      font-style: italic;
     }
   }
   &__list{
