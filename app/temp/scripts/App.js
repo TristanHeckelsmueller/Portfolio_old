@@ -10588,31 +10588,19 @@ new _Projects2.default();
 new _RevealOnScroll2.default((0, _jquery2.default)(".projects__content--mod"), "85%");
 new _RevealOnScroll2.default((0, _jquery2.default)(".contact__content--box"), "85%");
 
-// $.ajax(){
-//   url: pageRefInput,
-//   type: "GET",
-//   dataType: "text",
-//   success: function( response ) {
-//     console.log('the page was loaded', response);
-//     $('.main').html(response)
-//   },
-//   error: function (error) {
-//     console.log('Page was not loaded', error);
-//   },
-//   complete: function (xhr, status) {
-//     console.log("The request is complete!");
-//   }
-// }
-
-
 function callPage(pageRefInput) {
   _jquery2.default.ajax({
+    async: true,
     url: pageRefInput,
     type: "GET",
     dataType: "text",
     success: function success(response) {
-      console.log('the page was loaded', response);
+      console.log('the page was loaded');
       (0, _jquery2.default)('.main').html(response);
+      window.history.pushState({
+        // "html":response.html,
+        "pageTitle": response.pageTitle
+      }, 'About', '');
     },
     error: function error(_error) {
       console.log('Page was not loaded', _error);

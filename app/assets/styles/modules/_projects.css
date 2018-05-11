@@ -36,26 +36,26 @@
 }
 
 #cursade_main{
-  background: url('/assets/images/Cursade-Header.png');
+  background: url('assets/images/Cursade-Header.png');
   background-size: cover;
 }
 #ouiui{
-  background: url('/assets/images/Ouiui-Header.png');
+  background: url('assets/images/Ouiui-Header.png');
   background-size: cover;
 }
 #chat{
-  background: url('/assets/images/Chatiflix-Header.png');
+  background: url('assets/images/Chatiflix-Header.png');
   background-size: cover;
 }
 #hob{
-  background: url('/assets/images/HOB-Header.png');
+  background: url('assets/images/HOB-Header.png');
   background-size: cover;
 }
 #dao_home{
-  background: url('/assets/images/DAO-Header.png');
+  background: url('assets/images/DAO-Header.png');
   background-size: cover;
 }
 #fzg{
-  background: url('/assets/images/FZG-Header.png');
+  background: url('assets/images/FZG-Header.png');
   background-size: cover;
 }

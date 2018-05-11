@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ggu<!DOCTYPE html>
 
 <html lang="en">
 <head>
@@ -8,26 +8,27 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400" rel="stylesheet">
   <title>Portfolio</title>
-  <meta name="keywords" content="Portfolio, Tristan, Heckelsmueller, Heckelsmüller">
+  <meta name="keywords" content="Portfolio, Tristan, Heckelsmueller, Heckelsmüller, Webdesign, Webdevelopment">
   <meta name="description" content="Portfolio about Tristan Heckelsmueller">
   <link rel="icon" href="assets/images/icons/Astronaut-Icon.png">
-  <link rel="stylesheet" href="assets/styles/styles-f04dc18c68.css"/>
+  <link rel="stylesheet" href="assets/styles/styles-710c1458ba.css"/>
 
 </head>
 <body>
+
   <header class="header clearfix">
     <nav class="nav">
       <div class="nav__title">
         <img src="assets/images/Astronaut.svg" alt="">
-        <h1><a href="/portfolio">
+        <h1><a href="index.html">
           Tristan <br> Heckelsmueller</a></h1>
       </div>
       <div class="nav__list">
         <ul>
-          <li id="about-me"><a href="#">About Me</a></li>
-          <li><a href="#">Companies</a></li>
-          <li id="contact"><a>Contact</a></li>
-          <li><a href="#" id="cv">Curriculum Vitae</a></li>
+          <li id="about-me"><a class="spa-ajax" href="about-me.html">About Me</a></li>
+          <li id="projects"><a class="spa-ajax" href="projects.html">Projects</a></li>
+          <li id="contact"> <a href="#">Contact</a></li>
+          <li><a href="#" class="spa-ajax">Curriculum Vitae</a></li>
         </ul>
       </div>
       <div class="hamburger">
@@ -36,109 +37,31 @@
       </div>
       <div class="mobile-menu">
         <ul>
-          <li> <a href="#">Home</a> </li>
-          <li> <a href="#" id="contact">Contact</a> </li>
-          <li> <a href="#">Sitemap</a> </li>
+          <li> <a href="projects.html" class="spa-ajax">Projects</a> </li>
+          <li id="contact"> <a href="#">Contact</a></li>
+          <li> <a href="#" spa-ajax>Sitemap</a> </li>
         </ul>
       </div>
     </nav>
   </header>
-    <section class="dashboard">
-      <div class="dashboard__front">
-        <div class="dashboard__front__space">
-          <div class="dashboard__front__about-me">
-            <h3>About Me</h3>
-            <p>I'm Tristan, 21 years old and ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
-           </div>
-        </div>
-        <div class="dashboard__front__title">
-          <div class="">
-            <h2>Tristan Heckelsmueller</h2>
-            <h3>Frontend - Backend - Marketing</h3>
-          </div>
-        </div>
+    <section class="main">
+      <div class="main__personal main__personal--pic">
+        <img src="assets/images/me.jpg" class="main__personal__img" alt="Tristan Heckelsmueller Photo">
       </div>
-      <div class="border-vertical border"></div>
-      <div class="astronaut">
-        <img src="assets/images/Astronaut-waving.svg" class="astronaut__img" alt="Astronaut">
-      </div>
-      <div class="dashboard__featured">
-        <div class="dashboard__projects--col">
-          <div class="dashboard__projects" id="col-1">
-
-            <div class="dashboard__projects--title">
-              <h3>Projects</h3>
-            </div>
-            <ul>
-              <li> <p> <a href="quiui.html">Quiui</a></p></li>
-              <li><a href="cursade.html">Cursade</a></li>
-              <li><a href="chatiflix.html">Chatiflix</a></li>
-            </ul>
-          </div>
-          <div class="dashboard__projects" id="col-2">
-
-            <div class="dashboard__projects--title">
-              <h3>Creative</h3>
-            </div>
-            <ul>
-              <li><a href="blender.html">Blender</a></li>
-              <li><a href="graphics.html">Vector Graphics</a></li>
-              <li><a href="movies.html">Movies</a></li>
-            </ul>
-          </div>
-          <div class="dashboard__projects" id="col-3">
-            <div class="dashboard__projects--title">
-              <h3>Blog & Personal</h3>
-            </div>
-            <ul>
-              <li><a href="blog.html">Blog</a></li>
-              <li><a href="skills.html">Skills</a></li>
-              <li><a href="software.html">Recommended Software</a></li>
-            </ul>
-          </div>
-        </div>
-        <div class="border-horizontal border"></div>
-
-
-
-        <div class="dashboard__cv cv">
-          <div class="cv__sidebar">
-            <div class="cv__sidebar--astronaut">
-              <img src="assets/images/Astronaut_dark.svg" alt="">
-            </div>
-            <div class="cv__sidebar__nav">
-              <div class="cv__sidebar__nav--year" id="1996">
-                <span>1996</span>
-              </div>
-              <div class="cv__sidebar__nav--year" id="2002">
-                <span>2002</span>
-              </div>
-              <div class="cv__sidebar__nav--year" id="2007">
-                <span>2007</span>
-              </div>
-              <div class="cv__sidebar__nav--year" id="2010">
-                <span>2010</span>
-              </div>
-              <div class="cv__sidebar__nav--year" id="2015">
-                <span>2015</span>
-              </div>
-              <div class="cv__sidebar__nav--year" id="2017">
-                <span>2017</span>
-              </div>
-            </div>
-          </div>
-          <div class="cv__content">
-            <div class="cv__content__caption">
-              <p id="app">
-                Curriculum Vitae | Tristan Heckelsmueller | 2018
-              </p>
-            </div>
-            <div class="cv__content__container"></div>
-
-          </div>
-        </div>
-      </div>
+      <div class="main__personal">
+        <h2>Who am I?</h2>
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+          et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+          Stet clita kasd gubergren, no sea takimata. </p>
+        <p>Sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+           At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren,
+           no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+      <div>
     </section>
+  <footer class="index__footer">
+    <h3>Tristan Heckelsmueller</h3>
+    <p>Frontend - Backend - Marketing</p>
+  </footer>
     <div class="modal" id="contact-modal">
       <div class="modal-content">
         <div class="modal-hamburger">
@@ -152,6 +75,6 @@
       </div>
     </div>
   <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
-  <script src="assets/scripts/App-61140a2765.js"></script>
+  <script src="assets/scripts/App-85e735ce58.js"></script>
 </body>
 </html>

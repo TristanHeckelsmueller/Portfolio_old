@@ -26,32 +26,21 @@ new RevealOnScroll($(".contact__content--box"), "85%");
 
 
 
-
-// $.ajax(){
-//   url: pageRefInput,
-//   type: "GET",
-//   dataType: "text",
-//   success: function( response ) {
-//     console.log('the page was loaded', response);
-//     $('.main').html(response)
-//   },
-//   error: function (error) {
-//     console.log('Page was not loaded', error);
-//   },
-//   complete: function (xhr, status) {
-//     console.log("The request is complete!");
-//   }
-// }
-
-
 function callPage(pageRefInput){
   $.ajax({
+    async: true,
     url: pageRefInput,
     type: "GET",
     dataType: "text",
-    success: function( response ) {
-      console.log('the page was loaded', response);
-      $('.main').html(response)
+    success: function(response) {
+      console.log('the page was loaded');
+      $('.main').html(response);
+      window.history.pushState({
+        // "html":response.html,
+        "pageTitle":response.pageTitle
+      },
+      'About',
+      '');
     },
     error: function (error) {
       console.log('Page was not loaded', error);
