@@ -688,29 +688,6 @@ a{
     }
   }
 
-.border{
-  background: #fff;
-  display: none;
-}
-
-@media (min-width: 800px) {
-
-.border{
-    float: left;
-    display: block
-}
-  }
-
-.border-horizontal{
-    width: 100%;
-    height: 1vh;
-  }
-
-.border-vertical{
-    width: .5vw;
-    height: 95vh;
-  }
-
 .show-text{
   width: 100%;
   opacity: 1;
@@ -1150,87 +1127,33 @@ a{
     }
 
 #cursade_main{
-  background: url('assets/images/Cursade-Header.png');
+  background: url('https://raw.githubusercontent.com/TristanHeckelsmueller/Portfolio/master/app/assets/images/Cursade-Header.png');
   background-size: cover;
 }
 
 #ouiui{
-  background: url('assets/images/Ouiui-Header.png');
+  background: url('https://github.com/TristanHeckelsmueller/Portfolio/blob/master/app/assets/images/Ouiui-Header.png?raw=true');
   background-size: cover;
 }
 
 #chat{
-  background: url('assets/images/Chatiflix-Header.png');
+  background: url('https://raw.githubusercontent.com/TristanHeckelsmueller/Portfolio/master/app/assets/images/Chatiflix-Header.png');
   background-size: cover;
 }
 
 #hob{
-  background: url('assets/images/HOB-Header.png');
+  background: url('https://github.com/TristanHeckelsmueller/Portfolio/blob/master/app/assets/images/HOB-Header.png?raw=true');
   background-size: cover;
 }
 
 #dao_home{
-  background: url('assets/images/DAO-Header.png');
+  background: url('https://raw.githubusercontent.com/TristanHeckelsmueller/Portfolio/master/app/assets/images/DAO-Header.png');
   background-size: cover;
 }
 
 #fzg{
-  background: url('assets/images/FZG-Header.png');
+  background: url('https://github.com/TristanHeckelsmueller/Portfolio/blob/master/app/assets/images/FZG-Header.png?raw=true');
   background-size: cover;
-}
-
-.wp-content{
-  background-size: cover !important;
-  background-position: bottom !important;
-  width: 100%;
-  height: 95vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.wp-content__section{
-    -webkit-transform: translateY(200px);
-            transform: translateY(200px);
-    margin: 0 auto;
-    background: #fff;
-    padding: 1em;
-    max-width: -webkit-fit-content;
-    max-width: -moz-fit-content;
-    max-width: fit-content;
-    border-radius: 1em;
-    font-weight: 900;
-  }
-
-.wp-content__section a{
-      color: #000;
-    }
-
-.wp-link{
-  color: #000;
-}
-
-.wp-link:hover{
-    color: #000;
-  }
-
-#cursade{
-  background: url('/Portfolio/assets/images/Cursade-Header.png');
-}
-
-#quiui{
-  background: url('/Portfolio/assets/images/Quiui-Header.png');
-}
-
-#chatiflix{
-  background: url('/Portfolio/assets/images/Chatiflix-Header.png');
-}
-
-.chatiflix-link{
-  color: #E0561B;
 }
 
 .astronaut{
