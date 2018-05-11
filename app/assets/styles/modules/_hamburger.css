@@ -1,10 +1,10 @@
 .hamburger{
-  @mixin atMedium{
-    display: none;
-  }
   transition: 1s all ease;
   padding: 1em;
   overflow: visible;
+  @mixin atMedium{
+    display: none;
+  }
   &::before{
     content: '';
     display: block;

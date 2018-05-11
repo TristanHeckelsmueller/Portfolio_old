@@ -10567,19 +10567,67 @@ var _CV = __webpack_require__(9);
 
 var _CV2 = _interopRequireDefault(_CV);
 
+var _Projects = __webpack_require__(13);
+
+var _Projects2 = _interopRequireDefault(_Projects);
+
 var _jquery = __webpack_require__(0);
 
 var _jquery2 = _interopRequireDefault(_jquery);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+var projects = new _Projects2.default();
 var hamburger = new _Hamburger2.default();
 var smoothscroll = new _SmoothScroll2.default();
 var trigger = new _Trigger2.default();
 var cv = new _CV2.default();
 
+new _Projects2.default();
+
 new _RevealOnScroll2.default((0, _jquery2.default)(".projects__content--mod"), "85%");
 new _RevealOnScroll2.default((0, _jquery2.default)(".contact__content--box"), "85%");
+
+// $.ajax(){
+//   url: pageRefInput,
+//   type: "GET",
+//   dataType: "text",
+//   success: function( response ) {
+//     console.log('the page was loaded', response);
+//     $('.main').html(response)
+//   },
+//   error: function (error) {
+//     console.log('Page was not loaded', error);
+//   },
+//   complete: function (xhr, status) {
+//     console.log("The request is complete!");
+//   }
+// }
+
+
+function callPage(pageRefInput) {
+  _jquery2.default.ajax({
+    url: pageRefInput,
+    type: "GET",
+    dataType: "text",
+    success: function success(response) {
+      console.log('the page was loaded', response);
+      (0, _jquery2.default)('.main').html(response);
+    },
+    error: function error(_error) {
+      console.log('Page was not loaded', _error);
+    },
+    complete: function complete(xhr, status) {
+      console.log("The request is complete!");
+    }
+  });
+}
+
+(0, _jquery2.default)('.spa-ajax').click(function (e) {
+  e.preventDefault();
+  var pageRef = (0, _jquery2.default)(this).attr('href');
+  callPage(pageRef);
+});
 
 /***/ }),
 /* 4 */
@@ -11511,27 +11559,8 @@ var Trigger = function Trigger() {
     (0, _jquery2.default)(".dashboard__cv").removeClass("show-cv");
   });
 
-  //Projects
-  var cursade = '<div class="projects__column" id="cursade_main"></div>';
-  var ouiui = '<div class="projects__column" id="ouiui"></div>';
-  var chat = '<div class="projects__column" id="chat"></div>';
-  var hob = '<div class="projects__column" id="hob"></div>';
-  var fzg = '<div class="projects__column" id="fzg"></div>';
-  var dao_home = '<div class="projects__column" id="dao_home"></div>';
-
-  var projects_div = '<h2>Projects:</h2>' + '<div class="projects">' + cursade + ouiui + chat + hob + fzg + dao_home + '</div>';
-  var projects_counter = 0;
-  (0, _jquery2.default)('#projects').click(function () {
-    if (projects_counter == 0) {
-      (0, _jquery2.default)('.main').append(projects_div);
-      projects_counter++;
-    }
-    console.log(projects_counter);
-  });
-
   // Projects Full Size
   (0, _jquery2.default)(".dashboard__projects").click(function () {
-
     (0, _jquery2.default)(".astronaut").addClass("astronaut-fall");
     (0, _jquery2.default)(".dashboard__projects").toggleClass("show-projects");
     (0, _jquery2.default)(".dashboard__projects--col").toggleClass("slide");
@@ -11584,7 +11613,7 @@ var CV = function CV() {
   _classCallCheck(this, CV);
 
   var counter = 0;
-  console.log('All' + counter);
+
   y1996.click(function () {
     if (counter == 0) {
       (0, _jquery2.default)('.cv__content__container').append(birth);
@@ -11598,7 +11627,6 @@ var CV = function CV() {
     y2002.removeClass('is-active');
     //Content
     counter++;
-    console.log('1996 ' + counter);
   });
   y2002.click(function () {
     if (counter == 0) {
@@ -11615,7 +11643,6 @@ var CV = function CV() {
 
     //Content
     counter++;
-    console.log('2002 ' + counter);
   });
 };
 
@@ -19945,6 +19972,52 @@ exports.clearImmediate = (typeof self !== "undefined" && self.clearImmediate) ||
 }(typeof self === "undefined" ? typeof global === "undefined" ? this : global : self));
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1), __webpack_require__(2)))
+
+/***/ }),
+/* 13 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _jquery = __webpack_require__(0);
+
+var _jquery2 = _interopRequireDefault(_jquery);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+var Projects = function Projects() {
+  _classCallCheck(this, Projects);
+};
+
+exports.default = Projects;
+
+// let cursade = '<div class="projects__column" id="cursade_main"></div>';
+// let ouiui = '<div class="projects__column" id="ouiui"></div>';
+// let chat = '<div class="projects__column" id="chat"></div>';
+// let hob = '<div class="projects__column" id="hob"></div>';
+// let fzg = '<div class="projects__column" id="fzg"></div>';
+// let dao_home = '<div class="projects__column" id="dao_home"></div>';
+//
+// let projects_div = '<h2>Projects:</h2>' + '<div class="projects">' + cursade + ouiui + chat + hob + fzg + dao_home + '</div>';
+// let projects_counter = 0;
+// $('#projects').click(function () {
+//   if (projects_counter == 0) {
+//     $('.main').append(projects_div);
+//     projects_counter++;
+//   }
+// });
+//
+// $('.projects__column').click(function () {
+//   console.log('Hello World');
+//   $('#cursade_main').append('<div class="projects__column__content"><h3>Cursade</h3><p>Cursade is wordpress theme built for commercial purpose and offers woocommerce implementation</p></div>');
+// });
 
 /***/ })
 /******/ ]);

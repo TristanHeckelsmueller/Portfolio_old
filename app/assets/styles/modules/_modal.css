@@ -25,12 +25,13 @@
 
     & ul{
       padding: 0;
+      list-style: none;
       & li{
         margin-bottom: .5em;
       }
     }
   }
-  /* &-hamburger{
+  &-hamburger{
     padding: .5em;
     float: right;
     cursor: pointer;
@@ -66,5 +67,5 @@
       transform-origin: 0 100%;
       transform: rotateZ(-45deg)  scaleX(1.25) translateX(-1px)   translateY(.5px);
     }
-  } */
+  }
 }

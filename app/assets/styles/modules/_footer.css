@@ -1,7 +1,12 @@
 .index__footer{
   background: #313131;
   color: #fff;
-  height: 7vh;
+  height: auto;
+  padding: 1em;
+  @mixin atLarge{
+    padding: .5em;
+    height: 7vh;
+  }
   padding-left: 1em;
   & h3{
     margin: 0 0 0 0;

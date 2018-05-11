@@ -1,0 +1,18 @@
+.about-me{
+  & ul{
+    padding: 0 0 0 3em;
+  }
+  & li{
+    margin-bottom: 2em;
+    list-style-type: none;
+    text-indent: -1em;
+    &::before{
+      content: '+';
+      display: block;
+      visibility: visible;
+      color: #fff;
+      float: left;
+      margin: 0 1em;
+    }
+  }
+}

@@ -23,7 +23,7 @@ let y2002 = $('#2002');
 class CV {
   constructor() {
     let counter = 0;
-    console.log('All' + counter);
+
     y1996.click(function () {
       if (counter == 0) {
         $('.cv__content__container').append(birth);
@@ -37,7 +37,6 @@ class CV {
       y2002.removeClass('is-active');
       //Content
       counter++;
-      console.log('1996 ' + counter);
 
     });
     y2002.click(function () {
@@ -55,9 +54,8 @@ class CV {
 
       //Content
       counter++;
-      console.log('2002 ' + counter);
     });
-    
+
   }
 }
 
