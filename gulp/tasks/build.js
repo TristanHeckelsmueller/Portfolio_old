@@ -25,6 +25,7 @@ gulp.task('copyGeneralFiles', ['deleteDistFolder'], function () {
         './app/**/*',
         '!./app/index.html',
         '!./app/assets/images/**',
+        '!./app/assets/videos/**',
         '!./app/assets/styles/**',
         '!./app/assets/scripts/**',
         '!./app/temp',
@@ -53,13 +54,11 @@ gulp.task('useminTrigger', ['deleteDistFolder'], function () {
 gulp.task('usemin', ['styles', 'scripts'], function () {
     let pathsToHTML = [
         './app/index.html',
-        './app/blender.html',
-        './app/blog.html',
+        './app/about-me.html',
+        './app/projects.html',
+        './app/selfmade.html',
         './app/skills.html',
-        './app/software.html',
-        './app/cursade.html',
-        './app/quiui.html',
-        './app/chatiflix.html'
+
     ];
    return gulp.src(pathsToHTML)
        .pipe(usemin({
