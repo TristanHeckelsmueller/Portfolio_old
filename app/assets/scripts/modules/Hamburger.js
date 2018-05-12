@@ -5,7 +5,6 @@ class Hamburger {
     $(".hamburger").click(function(){
       $(".mobile-menu").toggleClass("show");
       $(".hamburger").toggleClass("ham-top");
-      $(".hamburger").toggleClass("ham-bottom");
       $(".hamburger__center").toggleClass("ham-center");
     });
   }

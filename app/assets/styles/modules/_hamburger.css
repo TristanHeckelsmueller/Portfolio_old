@@ -2,6 +2,7 @@
   transition: 1s all ease;
   padding: 1em;
   overflow: visible;
+  cursor: pointer;
   @mixin atMedium{
     display: none;
   }
@@ -13,6 +14,7 @@
     background: #fff;
     transform: translateY(-8px) rotate(0deg);
     z-index: 7;
+    transition: 1s all ease;
   }
 
   &__center{
@@ -29,17 +31,19 @@
     background: #fff;
     transform: translateY(8px) rotate(0deg);
     z-index: 7;
-
+  transition: 1s all ease;
   }
 }
 
 
 .ham-top {
-  /* transform: rotate(90deg); */
-}
-.ham-bottom {
-  transform: rotate(-90deg) rotateX(45deg) scale(.9);
+  &::before{
+    transform: rotate(-90deg) scale(1.21) translateY(12px) translateX(-2.5px);
+  }
+  &::after{
+    transform: rotate(-90deg) scale(1.2) translateY(-12px) translateX(2.5px);
+  }
 }
 .ham-center{
-  transform: rotate(90deg) scale(.8);
+  transform: rotate(0deg) scale(1);
 }

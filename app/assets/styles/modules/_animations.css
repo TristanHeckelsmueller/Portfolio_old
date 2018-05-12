@@ -17,25 +17,3 @@
   40%  {transform: translateX(67vw) translateY(38vh) scale(.5) rotate(-6deg)};
   100%  {transform: translateX(10vw) translateY(100vh) scale(.5) rotate(-240deg)};
 } */
-.underline {
-  color: #fff;
-  text-decoration: none;
-  font-weight: 900;
-  & a::after{
-    content:'';
-    display: block;
-    width: 0%;
-    height: 2px;
-    background: #fff;
-  }
-    &:hover{
-      &::after{
-        content:'';
-        transform-origin: bottom;
-        display: block;
-        width: 100%;
-        height: 2px;
-        background: #fff;
-    }
-  }
-}

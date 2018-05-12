@@ -1,18 +1,29 @@
 .about-me{
-  & ul{
-    padding: 0 0 0 3em;
+  @mixin atSmall{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
   }
-  & li{
-    margin-bottom: 2em;
-    list-style-type: none;
-    text-indent: -1em;
-    &::before{
-      content: '+';
-      display: block;
-      visibility: visible;
-      color: #fff;
-      float: left;
-      margin: 0 1em;
+  & div{
+    padding: 1em;
+    color: #fff;
+    @mixin atMedium{
+      padding: 4em;
+      width: 50%;
+    }
+    & h2{
+      padding: 0;
+    }
+
+  }
+  &__img{
+    padding: 1em;
+    width: 100%;
+    border-radius: 5em;
+
+    @mixin atSmall{
+      width: auto;
     }
   }
 }
