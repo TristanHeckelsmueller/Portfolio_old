@@ -1301,3 +1301,64 @@ a{
 ::-webkit-scrollbar-thumb:hover {
     background: #101010;
 }
+
+.cv{
+  background: #272627;
+  height:  86.8vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: #fff;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cv__timeline{
+    border-right: 1px solid #fff;
+    width: 13%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+.cv__timeline__dates{
+    }
+
+.cv__timeline--date{
+      width: 100%;
+      text-align: center;
+      margin: 3em 0 3em;
+    }
+
+.cv__timeline--date span{
+        font-size: 1.2em;
+      }
+
+.cv__content{
+    margin-left: 5em;
+    width: 40%;
+  }
+
+.cv__content__sub{
+      border-bottom: 1px solid #fff;
+      padding: .5em 0;
+    }
+
+.cv h2{
+    margin: .2em 0;
+    font-weight: 100;
+    font-size: 2.2em;
+  }
+
+.cv p{
+    margin: 0;
+    font-size: 1.1em;
+  }
