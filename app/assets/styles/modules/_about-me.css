@@ -20,7 +20,7 @@
   &__img{
     padding: 1em;
     width: 100%;
-    border-radius: 5em;
+    border-radius: 2em;
 
     @mixin atSmall{
       width: auto;

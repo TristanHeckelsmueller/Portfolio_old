@@ -1,6 +1,9 @@
 .projects{
   display: block;
-  padding: 3em;
+  padding: 1em;
+  @mixin atMedium{
+    padding: 4em;
+  }
   height: 100%;
   @mixin atLarge{
     grid-gap: 1em;

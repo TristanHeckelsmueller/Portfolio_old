@@ -1,7 +1,31 @@
 .blog{
   overflow-y: scroll;
   height: 100%;
-
+  @mixin atMedium{
+    width: 60%;
+    margin: 0 auto;
+    font-size: 20px;
+    & h2{
+      font-size: 3.5em;
+    }
+    & h3{
+      font-size: 1.4em;
+    }
+  }
+  &__content{
+    color: #fff;
+    padding: 1em;
+  }
+  &--title__img{
+    padding: 1em;
+    @mixin atMedium{
+      width: 75%;
+      margin: 3em auto 0em;
+    }
+    & img{
+      width: 100%;
+    }
+  }
   &__post{
     color: #fff;
     padding: 1em;
@@ -11,7 +35,7 @@
     & img{
       width: 100%;
     @mixin atMedium{
-      width: 40%;
+      width: 100%;
       }
     }
     &__svg{
@@ -21,9 +45,63 @@
     & video{
       width: 100%;
       @mixin atMedium{
-        width: 50%;
+        width: 100%;
       }
     }
+  }
+  &__column{
+    max-width: 380px;
+    max-height: 180px;
+    margin-bottom: 1em;
+    background: #fff;
+    filter: grayscale(100%);
+    transition: .5s all ease;
+    & img{
+      width: 100%;
+      height: 100%;
+    }
+    @mixin atSmall{
+      margin: 1em auto;
+      height: 210px;
+    }
+    @mixin atMedium{
+      margin-bottom: 0;
+      min-height: 200px;
+    }
+    @mixin atLarge{
+      max-width: 480px;
+      max-height: 100%;
+      height: 65%;
+    }
+    &:hover{
+      filter: grayscale(0%);
+      cursor: pointer;
+      transform: scale(1.02);
+    }
+    &__content{
+      background: #000000a1;
+      color: #fff;
+    }
+    &__desc{
+      transition: 1s all ease;
+      opacity: 1;
+      background: #1a1a1a9e;
+      padding: 1em;
+      @mixin atMedium{
+        opacity: 0;
+
+      }
+      & h3{
+        margin: 0;
+      }
+      & p{
+        margin: 1em 0 0 0;
+      }
+    }
+  }
+  &__link{
+    color: $orange;
+    font-weight: 900;
   }
 }
 /* width */
@@ -33,14 +111,14 @@
 
 /* Track */
 ::-webkit-scrollbar-track {
-    box-shadow: inset 0 0 1px #101010;
-    border-radius: 10px;
+    box-shadow: inset 0 0 1px #272627;
+    border-radius: 1px;
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
-    background: #101010;
-    border-radius: 10px;
+    background: #292929;
+    border-radius: 1px;
 }
 
 /* Handle on hover */
